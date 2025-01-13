@@ -16,21 +16,21 @@ const MostPopular = () => {
 
   return (
     <section  style={backgroundStyle} className='md:py-10 z-10'>
-      <div className="max-w-screen-lg md:mx-auto p-4 opacity-100 z-50">
+      <div className="max-w-screen-xl md:mx-auto p-4 opacity-100 z-50">
         <h1 className="text-center font-cursive text-orange font-semibold text-5xl pb-8" >
-          Our Most Popular Tourist Plcae
+        Explore Our Most Popular Destinations
         </h1>
         <h2 className="md:max-w-screen-sm max-w-3xl  mx-auto text-2xl text-center text-web font-semibold font-sans">
-          Our experienced team handles everything from decoration, catering, and photography to managing the entire event, ensuring it&apos;s stress-free and magical.
-        </h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 p-4">
-          {data.map((elem, id) => {
+        From breathtaking mountains to pristine beaches, these are the places our travelers love the most!        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 p-4">
+          {data.filter((item)=>item.destinationType=="domestic").map((elem, id) => {
             return (
               <div className="flex justify-center items-center" key={id}>
                 <div className="container flex justify-center" >
                   <div className="max-w-sm py-8 rounded-2xl">
                     <div className="bg-white relative shadow-lg transition ease-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 rounded-2xl">
-                      <Link className='h-72' href={`/${elem.state}`}>
+                     <div className='h-72'>
+                      <Link  href={`/${elem.state}`}>
                         <img
                           //  height={200}
                           //   width={180} 
@@ -40,6 +40,7 @@ const MostPopular = () => {
                           style={{ borderRadius: "10px 10px 0 0" }}
                         />
                       </Link>
+                      </div>
                       <div className="py-6 px-8 rounded-2xl bg-white flex justify-between items-center">
                         <p className="text-web text-3xl  md:text-3xl font-semibold">{elem?.state}</p>
                         <div className='text-end'>

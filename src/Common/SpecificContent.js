@@ -26,6 +26,12 @@ import Goa from "../Assets/travel/goa.jpg";
 import Himachal from "../Assets/travel/himachal1.jpg";
 import Kasol from "../Assets/travel/kasol1.jpg";
 import Dalhousie from "../Assets/travel/dalhousie1.jpg";
+import Darjiling from "../Assets/travel/Darjeeling.jpg";
+import northeast from "../Assets/travel/northeast.jpg";
+import maldivis from "../Assets/travel/Maldives.jpg";
+import thailand from "../Assets/travel/Thailand.jpg";
+import singapore from "../Assets/travel/singapore.jpg";
+import dubai from "../Assets/travel/dubai.jpg"
 
 export const specificdata = [
             {
@@ -193,8 +199,51 @@ export const specificdata = [
                 img: Tirthan,
                text:"A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
                 content: "Gulmarg lies in a cup-shaped valley in the Pir Panjal Range of the Himalayas, at an altitude of, 2,650 m (8,694 ft), 56 km from Srinagar.[15] The soil in Gulmarg comprises glacial deposits, lacustrine deposits, and moraines of Pleistocene age covering shales, limestones, sandstones, schists and other varieties of rocks.[27] The natural meadows of Gulmarg, which are covered with snow in winter, allow the growth of wild flowers such as daisies, forget-me-nots and buttercups during spring and summer.[15][12] The meadows are interspersed by enclosed parks and small lakes, and surrounded by forests of green pine and fir.[15] Skiing and other winter sports in Gulmarg are carried out on the slopes of Apharwat peak at a height of 4,267 m (13,999 ft).[17] Many points on Apharwat peak and Khilanmarg offer a panoramic view of Nanga Parbat and Harmukh mountains",
-                
             },
-           
+
+            {
+                place: "Darjiling",
+                img: Darjiling,
+               text:"A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
+                content: "Gulmarg lies in a cup-shaped valley in the Pir Panjal Range of the Himalayas, at an altitude of, 2,650 m (8,694 ft), 56 km from Srinagar.[15] The soil in Gulmarg comprises glacial deposits, lacustrine deposits, and moraines of Pleistocene age covering shales, limestones, sandstones, schists and other varieties of rocks.[27] The natural meadows of Gulmarg, which are covered with snow in winter, allow the growth of wild flowers such as daisies, forget-me-nots and buttercups during spring and summer.[15][12] The meadows are interspersed by enclosed parks and small lakes, and surrounded by forests of green pine and fir.[15] Skiing and other winter sports in Gulmarg are carried out on the slopes of Apharwat peak at a height of 4,267 m (13,999 ft).[17] Many points on Apharwat peak and Khilanmarg offer a panoramic view of Nanga Parbat and Harmukh mountains",
+            },
+
+            {
+                place: "Sikkim",
+                img: northeast,
+               text:"A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
+                content: "Gulmarg lies in a cup-shaped valley in the Pir Panjal Range of the Himalayas, at an altitude of, 2,650 m (8,694 ft), 56 km from Srinagar.[15] The soil in Gulmarg comprises glacial deposits, lacustrine deposits, and moraines of Pleistocene age covering shales, limestones, sandstones, schists and other varieties of rocks.[27] The natural meadows of Gulmarg, which are covered with snow in winter, allow the growth of wild flowers such as daisies, forget-me-nots and buttercups during spring and summer.[15][12] The meadows are interspersed by enclosed parks and small lakes, and surrounded by forests of green pine and fir.[15] Skiing and other winter sports in Gulmarg are carried out on the slopes of Apharwat peak at a height of 4,267 m (13,999 ft).[17] Many points on Apharwat peak and Khilanmarg offer a panoramic view of Nanga Parbat and Harmukh mountains",
+            },
+
+            {
+                place: "Dubai",
+                img: dubai,
+               text:"A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
+                content: "Gulmarg lies in a cup-shaped valley in the Pir Panjal Range of the Himalayas, at an altitude of, 2,650 m (8,694 ft), 56 km from Srinagar.[15] The soil in Gulmarg comprises glacial deposits, lacustrine deposits, and moraines of Pleistocene age covering shales, limestones, sandstones, schists and other varieties of rocks.[27] The natural meadows of Gulmarg, which are covered with snow in winter, allow the growth of wild flowers such as daisies, forget-me-nots and buttercups during spring and summer.[15][12] The meadows are interspersed by enclosed parks and small lakes, and surrounded by forests of green pine and fir.[15] Skiing and other winter sports in Gulmarg are carried out on the slopes of Apharwat peak at a height of 4,267 m (13,999 ft).[17] Many points on Apharwat peak and Khilanmarg offer a panoramic view of Nanga Parbat and Harmukh mountains",
+            },
+
+            {
+                place: "Thailand",
+                img: thailand,
+               text:"A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
+                content: "Gulmarg lies in a cup-shaped valley in the Pir Panjal Range of the Himalayas, at an altitude of, 2,650 m (8,694 ft), 56 km from Srinagar.[15] The soil in Gulmarg comprises glacial deposits, lacustrine deposits, and moraines of Pleistocene age covering shales, limestones, sandstones, schists and other varieties of rocks.[27] The natural meadows of Gulmarg, which are covered with snow in winter, allow the growth of wild flowers such as daisies, forget-me-nots and buttercups during spring and summer.[15][12] The meadows are interspersed by enclosed parks and small lakes, and surrounded by forests of green pine and fir.[15] Skiing and other winter sports in Gulmarg are carried out on the slopes of Apharwat peak at a height of 4,267 m (13,999 ft).[17] Many points on Apharwat peak and Khilanmarg offer a panoramic view of Nanga Parbat and Harmukh mountains",
+            },
+
+
+            {
+                place: "Maldives",
+                img: maldivis,
+               text:"A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
+                content: "Gulmarg lies in a cup-shaped valley in the Pir Panjal Range of the Himalayas, at an altitude of, 2,650 m (8,694 ft), 56 km from Srinagar.[15] The soil in Gulmarg comprises glacial deposits, lacustrine deposits, and moraines of Pleistocene age covering shales, limestones, sandstones, schists and other varieties of rocks.[27] The natural meadows of Gulmarg, which are covered with snow in winter, allow the growth of wild flowers such as daisies, forget-me-nots and buttercups during spring and summer.[15][12] The meadows are interspersed by enclosed parks and small lakes, and surrounded by forests of green pine and fir.[15] Skiing and other winter sports in Gulmarg are carried out on the slopes of Apharwat peak at a height of 4,267 m (13,999 ft).[17] Many points on Apharwat peak and Khilanmarg offer a panoramic view of Nanga Parbat and Harmukh mountains",
+            },
+
+
+            {
+                place: "Singapore",
+                img: singapore,
+               text:"A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
+                content: "Gulmarg lies in a cup-shaped valley in the Pir Panjal Range of the Himalayas, at an altitude of, 2,650 m (8,694 ft), 56 km from Srinagar.[15] The soil in Gulmarg comprises glacial deposits, lacustrine deposits, and moraines of Pleistocene age covering shales, limestones, sandstones, schists and other varieties of rocks.[27] The natural meadows of Gulmarg, which are covered with snow in winter, allow the growth of wild flowers such as daisies, forget-me-nots and buttercups during spring and summer.[15][12] The meadows are interspersed by enclosed parks and small lakes, and surrounded by forests of green pine and fir.[15] Skiing and other winter sports in Gulmarg are carried out on the slopes of Apharwat peak at a height of 4,267 m (13,999 ft).[17] Many points on Apharwat peak and Khilanmarg offer a panoramic view of Nanga Parbat and Harmukh mountains",
+            },
+
 
 ]

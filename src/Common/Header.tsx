@@ -40,10 +40,10 @@ const Header = () => {
               className="z-50 absolute top-4 md:top-10 left-1/3 md:left-0   font-normal bg-white divide-y divide-gray-100 rounded-lg shadow   dark:bg-gray-700 dark:divide-gray-600">
               <ul className="py-2 nav-tab w-60 text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                 <li>
-                  <Link href="/easy-storage" className="block text-[18px] nav-tab-dropdown px-10 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Domestic</Link>
+                  <Link href="/package/popular" className="block text-[18px] nav-tab-dropdown px-10 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Domestic</Link>
                 </li>
                 <li>
-                  <Link href="/affordable-storage" className="block text-[18px] nav-tab-dropdown px-10 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Internationl</Link>
+                  <Link href="/international/Package" className="block text-[18px] nav-tab-dropdown px-10 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Internationl</Link>
                 </li>
               </ul>
             </div>}
@@ -70,10 +70,10 @@ const Header = () => {
             className="z-50 absolute top-1/10 w-1/2 left-1/3 md:left-0   font-normal bg-white divide-y divide-gray-100 rounded-lg shadow   dark:bg-gray-700 dark:divide-gray-600">
             <ul className="py-2 nav-tab w-60 text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
               <li>
-                <Link href="/easy-storage" className="block text-[18px] nav-tab-dropdown px-10 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Domestic</Link>
+                <Link href="/package/popular" className="block text-[18px] nav-tab-dropdown px-10 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Domestic</Link>
               </li>
               <li>
-                <Link href="/affordable-storage" className="block text-[18px] nav-tab-dropdown px-10 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Internationl</Link>
+                <Link href="/international/Package" className="block text-[18px] nav-tab-dropdown px-10 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Internationl</Link>
               </li>
             </ul>
           </div>}

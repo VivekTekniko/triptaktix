@@ -24,22 +24,17 @@ const responsive = {
   },
 };
 
-const TreatmentList = () => {
+const International = () => {
 
-  const filteredData = data.map(state => {
-    return {
-      ...state,
-      destination: state.destination.filter(dest => dest.popular)
-    };
-  }).filter(state => state.destination.length > 0);
+  const filteredData = data.filter((elem)=>elem.destinationType=="International");
   return (
     <div className="max-w-screen-lg md:mx-auto py-12">
       <h2 className="text-center text-orange font-semibold text-5xl font-cursive pb-4">
-        Our Popular Packages
+        Our International Packages
       </h2>
       <p className="md:max-w-screen-sm max-w-3xl  mx-auto text-2xl text-center text-web font-semibold font-sans">
-      These popular packages offer the perfect blend of adventure and relaxation. Choose your dream getaway and create unforgettable memories.      </p>
-      <Link href="/package/popularPackage" className="text-xl text-web font-semibold flex justify-end">View All</Link>
+      Explore the world with our international trip packages—unforgettable experiences, iconic destinations, and adventures that go beyond borders.      </p>
+      <Link href="/international/Package" className="text-xl text-web font-semibold flex justify-end">View All</Link>
 
       {/* <div className="grid md:grid-cols-3 grid-cols-2 gap-2 place-items-center p-4"> */}
       <Carousel
@@ -65,7 +60,7 @@ const TreatmentList = () => {
             return (
               <div key={ind} className="m-4">
                 <div class="max-w-md rounded relative overflow-hidden shadow-lg">
-                  <Link href={`/destination/${data.place}`} className="">
+                  <Link href={`/international/${data.place}`} className="">
                     <img class="w-full h-72" src={data.img.src} alt={data.place} />
                   </Link>
                   <div class="px-6 py-4">
@@ -93,4 +88,4 @@ const TreatmentList = () => {
   );
 };
 
-export default TreatmentList;
+export default International;

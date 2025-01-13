@@ -34,25 +34,25 @@ const Testimonials: any = () => {
       prof: "Doctor",
       star: "",
       comment:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi molestias deleniti amet cupiditate, illum magnam saepe earum aut quos!",
+        "TripTaktix turned our family vacation into an unforgettable experience. From the well-thought-out itinerary to smooth bookings, everything was perfect. Their attention to detail and friendly team made it all stress-free. Highly recommend!",
       img: "",
     },
     {
       mainimg: img3,
       name: "Rahul Verma ",
-      prof: "C.E.O.",
+      prof: "Engg.",
       star: "",
       comment:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi molestias deleniti amet cupiditate, illum magnam saepe earum aut quos!!",
+        "I recently organized a corporate event through TripTaktix, and they exceeded all expectations. The team handled everything seamlessly, from travel to accommodations, leaving me to focus on my team. They’re absolute pros!",
       img: "",
     },
     {
       mainimg: img2,
-      name: "Priya & Amit Sharma",
+      name: "Amit Sharma",
       prof: "Teacher",
       star: "",
       comment:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi molestias deleniti amet cupiditate, illum magnam saepe earum aut quos!",
+        " booked a group adventure trip through TripTaktix, and it was phenomenal! From the comfortable travel arrangements to thrilling activities, everything was perfectly planned. Can’t wait to book my next trip with them!",
       img: "",
     },
     {
@@ -61,7 +61,7 @@ const Testimonials: any = () => {
       prof: "Designer",
       star: "",
       comment:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi molestias deleniti amet cupiditate, illum magnam saepe earum aut quos!",
+      "TripTaktix turned our family vacation into an unforgettable experience. From the well-thought-out itinerary to smooth bookings, everything was perfect. Their attention to detail and friendly team made it all stress-free. Highly recommend!",
       img: "",
     },
     {
@@ -70,14 +70,14 @@ const Testimonials: any = () => {
       prof: "Engineer",
       star: "",
       comment:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi molestias deleniti amet cupiditate, illum magnam saepe earum aut quos!",
+      " booked a group adventure trip through TripTaktix, and it was phenomenal! From the comfortable travel arrangements to thrilling activities, everything was perfectly planned. Can’t wait to book my next trip with them!",
       img: "",
     },
   ];
   return (
     <div className="max-w-screen-xl mx-auto py-10 ">
       <div className="md:mb-14 text-center">
-        <h2 className="text-orange text-5xl font-bold font-cursive">What our happy client say</h2>
+        <h2 className="text-orange text-5xl font-bold font-cursive">Our Clients’ Journeys, Their Words        </h2>
       </div>
         <div className="my-16 font-[sans-serif] max-w-screen-lg mx-auto">
           <Carousel

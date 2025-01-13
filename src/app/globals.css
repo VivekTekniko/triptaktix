@@ -263,4 +263,13 @@ summary,
   font-family: var(--font-Jost);
 }
 
+/* setvicessss                         asssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
 
+.service-card:hover{
+   background-color: #f7883d;
+   cursor: pointer;
+}
+
+.service-card h1 p:hover{
+ color: #fff;
+}

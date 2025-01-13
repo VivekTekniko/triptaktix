@@ -83,7 +83,7 @@ const page = ({ params }) => {
                       <div class="font-semibold text-3xl text-web mb-2">{elem.place}</div>
                       <Link href={`/destination/${elem.place}`} class="text-web text-xl">
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia.
+                        {elem.text.slice(0,130)}...
                         </p>
                       </Link>
                     </div>

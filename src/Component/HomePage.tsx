@@ -46,7 +46,7 @@ const HomePage = () => {
   // ];
 
   return (
-    <div className="">
+    <div className="relative">
       <Carousel
         swipeable={false}
         draggable={false}
@@ -72,19 +72,22 @@ const HomePage = () => {
             </div>
           );
         })} */}
-        {data.map((elem, id) => {
+        {data.filter((item)=>item.showbanner).map((elem, id) => {
           return (
-            <div className="relative cursor-pointer" key={id} >
+            <div className="relative cursor-pointer sm:h-[470px] h-[245px]" key={id} >
               <Link href={`/${elem.state}`} className="z-50">
-                <img
+               <div className="">
+               <img
                   src={elem.bgImg.src}
-                  className="absolute inset-0 object-cover w-full h-[245px] sm:h-full"
-                  alt=""
+                  className="absolute  object-cover w-full h-full"
+                  alt={elem.state}
                 />
+               </div>
               </Link>
-              <div className="relative bg-gray-800 bg-opacity-50 w-full h-[245px] sm:h-full" onClick={() => router.push(`/${elem.state}`)}>
-                <div className="px-4 sm:py-16 py-32 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                  <div className="flex flex-col items-center justify-between xl:flex-row">
+              <div className="absolute top-0 bottom-0 bg-gray-800 bg-opacity-50 w-full h-[245px] sm:h-[470px]" onClick={() => router.push(`/${elem.state}`)}>           </div>
+              <div className="relative h-full" >
+                <div className="px-4 h-full sm:py-16 py-32 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                  <div className="flex h-full flex-col items-center justify-between xl:flex-row">
                     <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                       <h2 className="max-w-lg mb-6 font-cursive  text-6xl font-bold tracking-tight text-white sm:text-8xl sm:leading-none">
                         {elem.state}
@@ -98,75 +101,8 @@ const HomePage = () => {
                         </a>
                       </div>
                     </div>
-                    <div className='hidden md:block'> <Contactus /></div>
-                    {/* <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
-                    <div className="bg-white rounded-xl shadow-2xl p-7 sm:p-10">
-                      <h3 className="mb-4 text-xl text-web font-bold sm:text-center sm:mb-6 sm:text-3xl">
-                        Let's Connect with Us!
-                      </h3>
-                      <form>
-                        <div className="mb-1 sm:mb-2">
-                          <label
-                            htmlFor="firstName"
-                            className="inline-block mb-2 text-web font-normal text-2xl"
-                          >
-                            Enter Your Name
-                          </label>
-                          <input
-                            placeholder="John Doe"
-                            required
-                            type="text"
-                            className="flex-grow w-full h-14 px-4 py-4 text-2xl mb-2 transition duration-200 bg-white border border-blue-800 rounded-xl shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                            id="firstName"
-                            name="firstName"
-                          />
-                        </div>
-                        <div className="mb-1 sm:mb-2">
-                          <label
-                            htmlFor="lastName"
-                            className="inline-block mb-2 text-web font-normal text-2xl"
-                          >
-                          Enter Your Mobile Number
-                          </label>
-                          <input
-                            placeholder="911111111"
-                            required
-                            type="text"
-                            className="flex-grow w-full h-14 px-4 py-4 text-2xl mb-2 transition duration-200 bg-white border border-blue-800 rounded-xl shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                            id="lastName"
-                            name="lastName"
-                          />
-                        </div>
-                        <div className="mb-1 sm:mb-2">
-                          <label
-                            htmlFor="email"
-                            className="inline-block mb-2 text-web font-normal text-2xl"
-                          >
-                           Enter Your E-mail
-                          </label>
-                          <input
-                            placeholder="john.doe@example.org"
-                            required
-                            type="text"
-                            className="flex-grow  w-full h-14 px-4 py-4 text-2xl mb-2 transition duration-200 bg-white border border-blue-800 rounded-xl shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                            id="email"
-                            name="email"
-                          />
-                        </div>
-                        <div className="mt-4 mb-2 sm:mb-4">
-                          <button
-                            type="submit"
-                            className="inline-flex items-center justify-center w-full h-14 px-6  text-2xl tracking-wide bg-blue-900 text-white font-semibold transition duration-200 rounded-xl shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                          >
-                            Get Quotes
-                          </button>
-                        </div>
-                        <p className="text-xs text-gray-800 sm:text-lg">
-                          Our team will contact you soon.
-                        </p>
-                      </form>
-                    </div>
-                  </div> */}
+                    {/* <div className='hidden md:block'> <Contactus /></div> */}
+                    
                   </div>
                 </div>
               </div>
@@ -174,7 +110,7 @@ const HomePage = () => {
           )
         })}
       </Carousel>
-
+      <div className='hidden md:block absolute top-[8%] right-[5%]'> <Contactus /></div>
     </div>
   );
 };

@@ -57,7 +57,7 @@ const HeroMatrix = () => {
          },[state.customers])
 
   return (
-    <div class="px-4 py-16 bg-orange mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div class="px-4 py-16 bg-orange mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20">
     <div class="grid row-gap-8 grid-cols-3">
         <div class="text-center">
             <h6 class="text-5xl font-bold text-white">{state.state}+</h6>

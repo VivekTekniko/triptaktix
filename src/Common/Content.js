@@ -28,15 +28,23 @@ import Dalhousie from "../Assets/travel/dalhousie1.jpg";
 import rajasthanbg from "../Assets/travel/rajasthanbanner.jpg";
 import hpbg from "../Assets/travel/himachalbanner.jpg";
 import shimlabg from "../Assets/travel/shimlabann1.jpg";
-
+import kashmir from "../Assets/travel/kashmir.jpg"
+import Darjiling from "../Assets/travel/Darjeeling.jpg";
+import northeast from "../Assets/travel/northeast.jpg";
+import maldivis from "../Assets/travel/Maldives.jpg";
+import thailand from "../Assets/travel/Thailand.jpg";
+import singapore from "../Assets/travel/singapore.jpg";
+import dubai from "../Assets/travel/dubai.jpg"
 
 export const data = [
     {
         id: 1,
         state: "Jammu",
-        text: "Heaven of the Earth",
+        text: "Gateway to Serenity: Where Nature Meets Majesty.",
         img: patni,
-        bgImg:rajasthanbg,
+        bgImg:kashmir,
+        destinationType:"domestic",
+        showbanner:false,
         destination: [
             {
                 place: "Katra",
@@ -45,7 +53,7 @@ export const data = [
                 content: "",
                 package: "2N & 4D",
                 season:false,
-                popular:false,
+                popular:true,
                 packagePrice: "4999/-",
             },
             {
@@ -55,7 +63,7 @@ export const data = [
                 content: "",
                 package: "2N & 4D",
                 season:false,
-                popular:false,
+                popular:true,
                 packagePrice: "4999/-",
             },
            
@@ -64,9 +72,11 @@ export const data = [
     {
         id: 1,
         state: "Kashmir",
-        text: "Heaven of the earth",
+        text: "Paradise on Earth: Experience Heaven’s Splendor.",
         bgImg:shimlabg,
         img: srinagar,
+        destinationType:"domestic",
+        showbanner:true,
         destination: [
             {
                 place: "Srinagar",
@@ -75,16 +85,16 @@ export const data = [
                 content: "",
                 package: "2N & 4D",
                 season:false,
-                popular:false,
+                popular:true,
                 packagePrice: "4999/-",
             },
             {
                 place: "Gulmarg",
                 img: Gulmarg,
-                text: "",
+                text: "Experience the magic of snow and adventure in Gulmarg, a winter wonderland that’s perfect for skiing and scenic beauty.",
                 content: "",
                 package: "2N & 4D",
-                season:true,
+                season:false,
                 popular:true,
                 packagePrice: "4999/-",
                 
@@ -92,7 +102,7 @@ export const data = [
             {
                 place: "Pahalgam",
                 img: Pahalgam,
-                text: "",
+                text: "Reconnect with nature in Pahalgam, a tranquil retreat surrounded by lush meadows and stunning landscapes.",
                 content: "",
                 package: "2N & 4D",
                 season:true,
@@ -106,13 +116,13 @@ export const data = [
                 content: "",
                 package: "2N & 4D",
                 season:false,
-                popular:false,
+                popular:true,
                 packagePrice: "4999/-",
             },
             {
                 place: "Leh",
                 img: Leh,
-                text: "",
+                text: "Explore the rugged beauty of Leh, a high-altitude desert filled with mesmerizing monasteries and breathtaking views.",
                 content: "",
                 package: "2N & 4D",
                 season:false,
@@ -125,7 +135,7 @@ export const data = [
                 text: "",
                 content: "",
                 package: "2N & 4D",
-                season:false,
+                season:true,
                 popular:false,
                 packagePrice: "4999/-",
             },
@@ -145,7 +155,7 @@ export const data = [
                 text: "",
                 content: "",
                 package: "2N & 4D",
-                season:false,
+                season:true,
                 popular:false,
                 packagePrice: "4999/-",
             },
@@ -154,14 +164,16 @@ export const data = [
     {
         id: 1,
         state: "Himachal",
-        text: "Queen of Hills",
+        text: "Land of Snowy Bliss: Embrace the Mountains’ Magic.",
         img: Himachal,
         bgImg:hpbg,
+        destinationType:"domestic",
+        showbanner:true,
         destination: [
             {
                 place: "Manali",
                 img: Manali,
-                text: "",
+                text: "Escape to the charming hill station of Manali, where snow-capped peaks and lively streets await your visit",
                 content: "",
                 package: "2N & 4D",
                 season:false,
@@ -171,7 +183,7 @@ export const data = [
             {
                 place: "Shimla",
                 img: Shimla,
-                text: "",
+                text: "Take a stroll through the colonial charm of Shimla, surrounded by pine forests and cool mountain air.",
                 content: "",
                 package: "2N & 4D",
                 season:false,
@@ -181,7 +193,7 @@ export const data = [
             {
                 place: "Kasol",
                 img: Kasol,
-                text: "",
+                text: "Unwind in Kasol, the backpackers’ haven, known for its serene vibes, lush valleys, and cultural mix.",
                 content: "",
                 package: "2N & 4D",
                 season:false,
@@ -191,7 +203,7 @@ export const data = [
             {
                 place: "Tosh",
                 img: Tosh,
-                text: "",
+                text: "Escape to the peaceful village of Tosh, hidden in the Himalayas, with its serene vibe and breathtaking views.",
                 content: "",
                 package: "2N & 4D",
                 season:true,
@@ -215,13 +227,13 @@ export const data = [
                 content: "",
                 package: "2N & 4D",
                 season:false,
-                popular:false,
+                popular:true,
                 packagePrice: "4999/-",
             },
             {
                 place: "Dhramshala",
                 img: Dhramshala,
-                text: "",
+                text: "Immerse yourself in the peaceful surroundings of Dharamshala, home to Tibetan culture and stunning mountain views.",
                 content: "",
                 package: "2N & 4D",
                 season:false,
@@ -231,7 +243,7 @@ export const data = [
             {
                 place: "Tirthan",
                 img: Tirthan,
-                text: "",
+                text: "Discover the hidden gem of Tirthan Valley, where untouched nature and serene rivers offer a perfect retreat.",
                 content: "",
                 package: "2N & 4D",
                 season:false,
@@ -241,7 +253,7 @@ export const data = [
             {
                 place: "Spiti",
                 img: Spiti,
-                text: "",
+                text: "Discover the rugged beauty of Spiti Valley, where monasteries, mountains, and adventure await.",
                 content: "",
                 package: "2N & 4D",
                 season:true,
@@ -253,14 +265,16 @@ export const data = [
     {
         id: 1,
         state: "Kerala",
-        text: "",
+        text: "God’s Own Country: Where Backwaters and Bliss Collide",
         bgImg:Alleppy,
         img: Alleppy,
+        destinationType:"domestic",
+        showbanner:false,
         destination: [
             {
                 place: "Alleppy",
                 img: Alleppy,
-                text: "",
+                text: "Cruise through Alleppey’s tranquil backwaters on a traditional houseboat and embrace the charm of Kerala.",
                 content: "",
                 package: "2N & 4D",
                 season:false,
@@ -273,7 +287,7 @@ export const data = [
                 text: "",
                 content: "",
                 package: "2N & 4D",
-                season:false,
+                season:true,
                 popular:false,
                 packagePrice: "4999/-",
             },
@@ -283,7 +297,7 @@ export const data = [
                 text: "",
                 content: "",
                 package: "2N & 4D",
-                season:false,
+                season:true,
                 popular:false,
                 packagePrice: "4999/-",
             },
@@ -292,14 +306,16 @@ export const data = [
     {
         id: 1,
         state: "Goa",
-        text: "Party city of india",
+        text: "Sunkissed Escapes: The Ultimate Beach Paradise.",
         img: Goa,
         bgImg:Goa,
+        destinationType:"domestic",
+        showbanner:true,
         destination: [
             {
                 place: "Goa",
                 img: Goa,
-                text: "",
+                text: "Bask in the sun and enjoy the vibrant energy of Goa, a paradise for beach lovers and party enthusiasts.",
                 content: "",
                 package: "2N & 4D",
                 season:false,
@@ -312,14 +328,16 @@ export const data = [
     {
         id: 1,
         state: "Uttarakhand",
-        text: "Land of Shiva",
+        text: "Devbhoomi: A Journey to the Abode of the Gods.",
         img: Dalhousie,
         bgImg:Dalhousie,
+        destinationType:"domestic",
+        showbanner:false,
         destination: [
             {
                 place: "Uttarakhand",
                 img: Tirthan,
-                text: "",
+                text: "From rolling green hills to sacred rivers, Uttarakhand offers the perfect mix of adventure and peace.",
                 content: "",
                 package: "2N & 4D",
                 season:true,
@@ -329,5 +347,148 @@ export const data = [
            
         ]
     },
+
+    {
+        id: 1,
+        // state: "West Bengal",
+        state:"Darjiling",
+        text: "Savor the essence of Darjeeling",
+        img: Darjiling,
+        bgImg:Darjiling,
+        destinationType:"domestic",
+        showbanner:true,
+        destination: [
+            {
+                place: "Darjiling",
+                img: Darjiling,
+                text: "Savor the essence of Darjeeling, with its lush tea gardens, scenic views, and tranquil mountain air.",
+                content: "",
+                package: "2N & 4D",
+                season:true,
+                popular:false,
+                packagePrice: "4999/-",
+            },
+           
+        ]
+    },
+    {
+        id: 1,
+        // state: "North East",
+        state:"Sikkim",
+        text: "Explore the mystical beauty of Sikkim.",
+        img: northeast,
+        bgImg:northeast,
+        destinationType:"domestic",
+        showbanner:false,
+        destination: [
+            {
+                place: "Sikkim",
+                img: northeast,
+                text: "Explore the mystical beauty of Sikkim, where serene monasteries and snow-covered peaks captivate every traveler.",
+                content: "",
+                package: "2N & 4D",
+                season:true,
+                popular:false,
+                packagePrice: "4999/-",
+            },
+           
+        ]
+    },
+
+    // Interrrrrrrrrrrrrrrrrrrnnnnnnnnnnnnnttttttttttttiiiiiiiiiiiioooooooooonnnnnnnnaaaaaaaaaaaaalllllllllllllllllll
+
+    {
+        id: 1,
+        state:"Maldives",
+        text: "Indulge in luxury and serenity in the Maldives",
+        img: maldivis,
+        bgImg:maldivis,
+        destinationType:"International",
+        showbanner:true,
+        destination: [
+            {
+                place: "Maldives",
+                img: maldivis,
+                text: "Indulge in luxury and serenity in the Maldives, where pristine beaches and turquoise waters create paradise.",
+                content: "",
+                package: "2N & 4D",
+                season:false,
+                popular:false,
+                packagePrice: "24999/-",
+            },
+           
+        ]
+    },
+
+    {
+        id: 1,
+        state:"Thailand",
+        text: "A paradise of untouched natural beauty, vibrant cultures.",
+        img: thailand,
+        bgImg:thailand,
+        destinationType:"International",
+        showbanner:true,
+        destination: [
+            {
+                place: "Thailand",
+                img: thailand,
+                text: "Immerse yourself in the vibrant culture of Thailand, from stunning beaches to bustling markets and exotic flavors.",
+                content: "",
+                package: "2N & 4D",
+                season:false,
+                popular:false,
+                packagePrice: "14999/-",
+            },
+           
+        ]
+    },
+
+    {
+        id: 1,
+        state:"Singapore",
+        text: "Discover the futuristic charm of Singapore",
+        img: singapore,
+        bgImg:singapore,
+        destinationType:"International",
+        showbanner:false,
+        destination: [
+            {
+                place: "Singapore",
+                img: singapore,
+                text: "Discover the futuristic charm of Singapore, with its iconic skyline, vibrant streets, and lush gardens.",
+                content: "",
+                package: "2N & 4D",
+                season:false,
+                popular:false,
+                packagePrice: "44999/-",
+            },
+           
+        ]
+    },
+
+    {
+        id: 1,
+        state:"Dubai",
+        text: "Experience the glitz and glamour of Dubai",
+        img: dubai,
+        bgImg:dubai,
+        destinationType:"International",
+        showbanner:false,
+        destination: [
+            {
+                place: "Dubai",
+                img: dubai,
+                text: "Experience the glitz and glamour of Dubai, where modern skyscrapers meet golden deserts and Arabian nights",
+                content: "",
+                package: "2N & 4D",
+                season:false,
+                popular:false,
+                packagePrice: "54999/-",
+            },
+           
+        ]
+    },
+
+
 
 ]

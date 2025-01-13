@@ -1,6 +1,46 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 
 const Contactus = () => {
+  const [formData, setFormData] = useState({
+      name: '',
+      mobile: '',
+      email:""
+    });
+
+    const handleChange=(e)=>{
+      const {name , value} = e.target;
+      setFormData({
+        ...formData,
+        [name]:value
+      })
+    }
+
+
+const handleSubmit=async(e)=>{
+  e.preventDefault();
+  try {
+    const res = await fetch("http://localhost:8000/saveLead", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",  
+      },
+      body: JSON.stringify(formData),  
+    });
+
+    if (res.ok) {  
+      alert("Lead sent successfully");
+      setFormData();  
+    } else {
+      const errorData = await res.json(); 
+      alert(`Error: ${errorData.message || 'Something went wrong'}`);
+    }
+  } catch (error) {
+    console.error("Error occurred:", error);
+    alert("An error occurred while sending the lead.");
+  }
+}
+
   return (
 
 
@@ -8,9 +48,9 @@ const Contactus = () => {
       <div className="w-full mx-auto md:mr-0 max-w-2xl md:max-w-xl ">
         <div className="bg-white rounded-xl shadow p-7 sm:p-10">
           <h3 className="mb-4 text-3xl text-web font-bold sm:text-center sm:mb-6 sm:text-3xl">
-            Let&apos;s Connect with Us!
+            Let&apos;s Plan your next trip!
           </h3>
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="mb-1 sm:mb-2">
               <label
                 htmlFor="firstName"
@@ -21,10 +61,10 @@ const Contactus = () => {
               <input
                 placeholder="John Doe"
                 required
+                onChange={(e)=>handleChange(e)}
                 type="text"
                 className="flex-grow w-full h-14 px-4 py-4 text-3xl md:text-2xl mb-2 transition duration-200 bg-white border border-blue-800 rounded-xl shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                id="firstName"
-                name="firstName"
+                name="name"
               />
             </div>
             <div className="mb-1 sm:mb-2">
@@ -37,10 +77,10 @@ const Contactus = () => {
               <input
                 placeholder="911111111"
                 required
+                onChange={(e)=>handleChange(e)}
                 type="text"
                 className="flex-grow w-full h-14 px-4 py-4 text-3xl md:text-2xl mb-2 transition duration-200 bg-white border border-blue-800 rounded-xl shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                id="lastName"
-                name="lastName"
+                name="mobile"
               />
             </div>
             <div className="mb-1 sm:mb-2">
@@ -53,9 +93,9 @@ const Contactus = () => {
               <input
                 placeholder="john.doe@example.org"
                 required
+                onChange={(e)=>handleChange(e)}
                 type="text"
                 className="flex-grow  w-full h-14 px-4 py-4 text-3xl md:text-2xl mb-2 transition duration-200 bg-white border border-blue-800 rounded-xl shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                id="email"
                 name="email"
               />
             </div>
@@ -67,7 +107,7 @@ const Contactus = () => {
                 Get Quotes
               </button>
             </div>
-            <p className="md:text-xs text-xl text-gray-800 sm:text-lg">
+            <p className="md:text-xl text-xl text-gray-800 ">
               Our team will contact you soon.
             </p>
           </form>

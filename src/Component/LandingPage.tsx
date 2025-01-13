@@ -14,6 +14,8 @@ import type { Metadata } from "next";
 import Blog from "./Blog";
 import PopularSeason from "./PopularSeason"
 import HeroMatrix from '@/app/destination/HeroMatrix';
+import Services from "../Component/Services";
+import International from "../Component/International"
 
 export const metadata: Metadata = {
   title: "Travel package",
@@ -60,12 +62,14 @@ const LandingPage = () => {
         <Header/>
         <HomePage/>
         <MostPopular/>
+        <Services/>
+        <International/>
         <PopularPackage />
         <HowWorks/>
         <PopularSeason/>
         <About/>
         <Testimonials/>
-        <Blog/>
+        {/* <Blog/> */}
         <HeroMatrix/>
         <ContentPage/>
         <EventImage/>

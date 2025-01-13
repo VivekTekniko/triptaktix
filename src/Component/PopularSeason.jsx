@@ -40,11 +40,10 @@ const PopularSeason = () => {
 
             <div className="max-w-screen-lg md:mx-auto py-12">
                 <h2 className="text-center text-orange font-semibold text-5xl font-cursive pb-4">
-                    Popular Destination of the Seasons
+                Our Seasonal Must-Visit Spots
                 </h2>
                 <p className="md:max-w-screen-sm max-w-3xl  mx-auto text-2xl text-center text-web font-semibold font-sans">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti distinctio dolorum accusamus omnis. Quisquam beatae quasi veniam vel.
-                </p>
+                These destinations shine brightest at the perfect time. Discover your ideal seasonal escape and let nature amaze you.                </p>
                 <Link href="/package/popularSeason" className="text-xl font-semibold flex justify-end">View All</Link>
                 {/* <div className="grid md:grid-cols-3 grid-cols-2 gap-2 place-items-center p-4"> */}
                 <Carousel
@@ -76,7 +75,7 @@ const PopularSeason = () => {
                                             <div class="font-semibold text-3xl text-web mb-2">{data.place}</div>
                                             <Link href={`/destination/${data.place}`}>
                                                 <p class="text-web text-xl">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia.
+                                                {data.text.slice(0,130)}...
                                                 </p>
                                             </Link>
                                         </div>

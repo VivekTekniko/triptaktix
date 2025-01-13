@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import Header from '../../../Common/Header'
 import Footer from "../../../Common/Footer";
@@ -7,12 +8,9 @@ import Link from 'next/link';
 
 const page = ({ params }) => {
 
-    const filteredData = data.map(state => {
-        return {
-            ...state,
-            destination: state.destination.filter(dest => params.slug == "popularPackage" ? dest.popular : dest.season)
-        };
-    }).filter(state => state.destination.length > 0);
+    const filteredData = data.filter(state => state.destinationType=="International")
+
+    console.log(filteredData , "filll")
 
 
     return (
@@ -22,10 +20,10 @@ const page = ({ params }) => {
             <section className='max-w-screen-lg mx-auto mt-6'>
 
             <h2 className="text-center text-orange font-semibold text-5xl font-sans py-8">
-                Our Popular {params.slug == "popularPackage" ? "Package" : "Destination of Season"}
+                Our International Packages
             </h2>
             <p className="md:max-w-screen-sm max-w-3xl  mx-auto text-2xl text-center text-web font-medium font-sans">
-            These popular packages offer the perfect blend of adventure and relaxation. Choose your dream getaway and create unforgettable memories.    
+            Explore the world with our international trip packages—unforgettable experiences, iconic destinations, and adventures that go beyond borders.
             </p>
             <div className="grid md:grid-cols-3 grid-cols-2 gap-2 place-items-center p-4">
 

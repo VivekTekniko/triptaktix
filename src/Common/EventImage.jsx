@@ -40,7 +40,7 @@ const HomePage = () => {
   return (
     <>
     <div className="text-start mt-12">
-        <h1 className="text-black text-4xl font-bold px-6 py-4 text-orange"> Our Happy Customers</h1>
+        <h1 className="text-black text-4xl font-bold px-6 py-4 font-cursive text-orange"> Our Gallery</h1>
     </div>
     <div className="max-w-screen-xl md:mx-auto p-4">
       <Carousel
