@@ -49,7 +49,7 @@ const Header = () => {
             </div>}
           </li>
           <Link className="text-[18px]  font-medium text-web mr-3  relative after:bg-blue-900 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-700 cursor-pointer" href="/aboutus">About Us </Link>
-          <Link className="text-[18px]  font-medium text-web mr-3  relative after:bg-blue-900 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-700 cursor-pointer" href="/contact-form">Contact Us </Link>
+          <Link className="text-[18px]  font-medium text-web mr-3  relative after:bg-blue-900 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-700 cursor-pointer" href="/contact-us">Contact Us </Link>
           <Link className="text-[18px]  font-medium text-web  relative after:bg-blue-900 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-700 cursor-pointer" href="/">Our Blogs </Link>
           <div className="text-2xl  text-web md:mx-8 ">
 
@@ -81,7 +81,7 @@ const Header = () => {
             <a href="/aboutus" className="block py-2  px-3 md:p-0 text-web text-5xl font-semibold hover:bg-gray-400 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">About Us</a>
           </li>
           <li className="border border-b-blue-800 py-2">
-            <a href="/contact-form" className="block py-2  px-3 md:p-0 text-web text-5xl font-semibold rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact Us</a>
+            <a href="/contact-us" className="block py-2  px-3 md:p-0 text-web text-5xl font-semibold rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact Us</a>
           </li>
           <li className="py-2">
             <a href="#" className="block py-2 px-3 md:p-0 text-web text-5xl font-semibold rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Our Blogs</a>

@@ -15,7 +15,8 @@ import Blog from "./Blog";
 import PopularSeason from "./PopularSeason"
 import HeroMatrix from '@/app/destination/HeroMatrix';
 import Services from "../Component/Services";
-import International from "../Component/International"
+import International from "../Component/International";
+import Liston from "../Component/Liston";
 
 export const metadata: Metadata = {
   title: "Travel package",
@@ -64,6 +65,7 @@ const LandingPage = () => {
         <MostPopular/>
         <Services/>
         <International/>
+        <Liston/>
         <PopularPackage />
         <HowWorks/>
         <PopularSeason/>
