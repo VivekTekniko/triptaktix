@@ -3,11 +3,13 @@ import Header from "../../../Common/Header";
 import Footer from "../../../Common/Footer";
 import { specificdata } from "../../../Common/SpecificContent";
 import Contactus from '@/Common/Contactus';
-import Feature1 from "../Fetaure1";
+import Feature1 from "../DomesticFetaure1";
+import InternationalFeature from "../InternationalFeature";
 import Feature2 from "../Feature2";
 import Itinerary from '../Itinerary';
 import ContactForm from '@/app/contact-form/ContactForm';
 import PopularSeason from '@/Component/PopularSeason';
+import HeroMatrix from '../HeroMatrix';
 
 const page = ({ params }) => {
     const filteredData = specificdata.filter(state => {
@@ -50,7 +52,9 @@ const page = ({ params }) => {
                     </div>
                    <div className='hidden md:block'> <ContactForm /></div>
                 </div>
-            <Feature1/>
+           {filteredData[0].placeType=="Domestic" ? <Feature1/> : <InternationalFeature/>}
+            <HeroMatrix/>
+			<div className='block sm:hidden mt-12'> <ContactForm /></div>
             <Feature2/>
             <PopularSeason/>
             </div>

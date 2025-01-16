@@ -16,9 +16,9 @@ const YoutubeComponent = () => {
             <span className="text-web">TripTakTix:</span> Your Gateway to Seamless Travel
             </h2>
             <p className="text-gray-600 text-justify text-3xl mb-4">
-            At TripTactix, we make travel simple, fun, and tailored just for you. Whether it’s a family vacation, honeymoon, or an adventure trip, we’ve got you covered. With our mission of "Quality Within Reach," we ensure every journey is stress-free and unforgettable</p>     
+            At TripTactix, we make travel simple, fun, and tailored just for you. Whether it&apos;s a family vacation, honeymoon, or an adventure trip, we&apos;ve got you covered. With our mission of&quot;Quality Within Reach,&quot; we ensure every journey is stress-free and unforgettable</p>     
                    <p className="text-gray-600 text-justify text-3xl mb-6">
-                   With 3+ years of experience, we’re Ghaziabad’s go-to travel agency for custom packages, MICE services, flight bookings, and even Dubai visa assistance. From romantic getaways to group trips, we handle the details while you enjoy the moments.            </p>
+                   With 3+ years of experience, we&apos;re Ghaziabad&apos;s go-to travel agency for custom packages, MICE services, flight bookings, and even Dubai visa assistance. From romantic getaways to group trips, we handle the details while you enjoy the moments.            </p>
 
             {/* Experience and Chefs */}
             <div className="flex space-x-10 mb-20">

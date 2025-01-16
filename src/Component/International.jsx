@@ -60,7 +60,7 @@ const International = () => {
             return (
               <div key={ind} className="m-4">
                 <div class="max-w-md rounded relative overflow-hidden shadow-lg">
-                  <Link href={`/international/${data.place}`} className="">
+                  <Link href={`/destination/${data.place}`} className="">
                     <img class="w-full h-72" src={data.img.src} alt={data.place} />
                   </Link>
                   <div class="px-6 py-4">

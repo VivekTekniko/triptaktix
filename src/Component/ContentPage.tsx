@@ -10,7 +10,7 @@ const ContentPage = () => {
           Best Travel Company in Ghaziabad
           </h2>
           <p className="text-2xl text-gray-600 font-semibold py-4">
-          Looking for the best travel agency in Ghaziabad? TripTactix is your one-stop solution for all travel needs. From custom tour packages and family vacations to honeymoon packages, we create journeys tailored to your preferences. Whether you're planning a domestic or international trip, we make travel planning effortless and memorable.          </p>
+          Looking for the best travel agency in Ghaziabad? TripTactix is your one-stop solution for all travel needs. From custom tour packages and family vacations to honeymoon packages, we create journeys tailored to your preferences. Whether you&apos;re planning a domestic or international trip, we make travel planning effortless and memorable.          </p>
         </div>
         <div >
           <h2 className="text-3xl font-cursive py-4 text-web font-bold">
@@ -24,7 +24,7 @@ const ContentPage = () => {
           Affordable Group Trips and Customized Vacations
           </h2>
           <p className="text-2xl text-gray-600 font-semibold py-4">
-          Planning a group trip? TripTactix offers group trips in Ghaziabad and beyond with fully customized vacations. Whether it’s a group adventure or a relaxing retreat, we ensure every detail is covered. From Volvo bus bookings to comfortable stays, we make group travel stress-free and enjoyable.          </p>
+          Planning a group trip? TripTactix offers group trips in Ghaziabad and beyond with fully customized vacations. Whether it&apos;s a group adventure or a relaxing retreat, we ensure every detail is covered. From Volvo bus bookings to comfortable stays, we make group travel stress-free and enjoyable.          </p>
         </div>
         <div >
           <h2 className="text-3xl font-cursive py-4 text-web font-bold">
@@ -46,21 +46,21 @@ const ContentPage = () => {
           Corporate Event Planning and Travel Services
           </h2>
           <p className="text-2xl text-gray-600 font-semibold py-4">
-          TripTactix excels in corporate event bookings in Ghaziabad, ensuring flawless execution of business events. Whether it’s a conference, incentive trip, or team-building activity, our corporate travel services handle everything from start to finish, leaving no detail overlooked.                  </p>
+          TripTactix excels in corporate event bookings in Ghaziabad, ensuring flawless execution of business events. Whether it&apos;s a conference, incentive trip, or team-building activity, our corporate travel services handle everything from start to finish, leaving no detail overlooked.                  </p>
         </div>
 
         <div >
           <h2 className="text-3xl font-cursive py-4 text-web font-bold">
           Domestic and International Tour Packages          </h2>
           <p className="text-2xl text-gray-600 font-semibold py-4">
-          Explore your dream destinations with TripTactix! We offer domestic and international tour packages that cater to every traveler’s budget and preferences. As a trusted Ghaziabad travel agency, we handle everything from itineraries to logistics.           </p>
+          Explore your dream destinations with TripTactix! We offer domestic and international tour packages that cater to every traveler&apos;s budget and preferences. As a trusted Ghaziabad travel agency, we handle everything from itineraries to logistics.           </p>
         </div>
 
         <div >
           <h2 className="text-3xl font-cursive py-4 text-web font-bold">
           Your Partner in Trip Planning          </h2>
           <p className="text-2xl text-gray-600 font-semibold py-4">
-          Simplify your travels with TripTactix’s expert trip planning services in Ghaziabad. Whether it’s a customized itinerary or full-service planning, we deliver seamless travel experiences. Let us turn your travel dreams into reality.           </p>
+          Simplify your travels with TripTactix&apos;s expert trip planning services in Ghaziabad. Whether it&apos;s a customized itinerary or full-service planning, we deliver seamless travel experiences. Let us turn your travel dreams into reality.           </p>
         </div>
       </div>
     </section>

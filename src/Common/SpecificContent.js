@@ -36,6 +36,7 @@ import rishikesh from "../Assets/travel/rishikesh.jpg";
 export const specificdata = [
   {
     place: "Katra",
+    placeType:"Domestic",
     img: katra,
     text: "Katra is a city and Tehsil in the Reasi district of the Indian union territory of Jammu and Kashmir.",
     content:
@@ -43,6 +44,7 @@ export const specificdata = [
   },
   {
     place: "Patnitop",
+    placeType:"Domestic",
     img: patni,
     text: "A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
     content: "Content added soon",
@@ -50,18 +52,21 @@ export const specificdata = [
 
   {
     place: "Srinagar",
+    placeType:"Domestic",
     img: srinagar,
     text: "A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
     content: "Content added soon",
   },
   {
     place: "Gulmarg",
+    placeType:"Domestic",
     img: Gulmarg,
     text: "Experience the magic of snow and adventure in Gulmarg, a winter wonderland that’s perfect for skiing and scenic beauty.",
     content: "Content added soon",
   },
   {
     place: "Pahalgam",
+    placeType:"Domestic",
     img: Pahalgam,
     text: "Reconnect with nature in Pahalgam, a tranquil retreat surrounded by lush meadows and stunning landscapes ",
     content:
@@ -69,109 +74,180 @@ export const specificdata = [
   },
   {
     place: "Sonmarg",
+    placeType:"Domestic",
     img: Sonmarg,
     text: "A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
     content: "Content added soon",
   },
   {
     place: "Leh",
+    placeType:"Domestic",
     img: Leh,
     text: "Explore the rugged beauty of Leh, a high-altitude desert filled with mesmerizing monasteries and breathtaking views.",
     content: "Content added soon",
   },
   {
     place: "Pangong",
+    placeType:"Domestic",
     img: Pangong,
     text: "A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
     content: "Content added soon",
   },
   {
     place: "Nubra Valley",
+    placeType:"Domestic",
     img: Nubra,
     text: "A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
     content: "Content added soon",
   },
   {
     place: "Kargil",
+    placeType:"Domestic",
     img: Kargil,
     text: "A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
     content: "Content added soon",
   },
   {
     place: "Manali",
+    placeType:"Domestic",
     img: Manali,
-    text: "Escape to the charming hill station of Manali, where snow-capped peaks and lively streets await your visit",
+    text: "Manali, nestled in the heart of the Himalayas, is a perfect blend of natural beauty, adventure, and culture. From snow-capped peaks to serene temples, this picturesque town offers something for everyone—whether you're an adventurer, a nature lover, or a cultural explorer.",
     content:
-      "Manali is a resort town, near Kullu town in Kullu district in the Indian state of Himachal Pradesh.[2] It is situated in the northern end of the Kullu Valley, formed by the Beas River. The town is located in the Kullu district, approximately 270 kilometres (170 mi) north of the state capital of Shimla and 544 kilometres (338 mi) northeast of the national capital of New Delhi. With a population of 8,096 people recorded in the 2011 Indian census Manali is the beginning of an ancient trade route through Lahaul (H.P.) and Ladakh, over the Karakoram Pass and onto Yarkand and Hotan in the Tarim Basin of China. Manali is a popular tourist destination in India and serves as the gateway to the Lahaul and Spiti district as well as the city of Leh in Ladakh.[",
+      "Nestled in the picturesque Kullu Valley, Manali is a breathtaking hill station known for its captivating landscapes, pleasant weather, and vibrant culture. From the majestic Hadimba Temple to the adventurous Solang Valley, Manali seamlessly blends natural beauty and thrilling activities. Relax by the Vashisht Hot Springs, stroll through the bustling Mall Road, or simply marvel at the stunning Atal Tunnel—the gateway to the magical Lahaul Valley.",
+    content2:
+      "Whether you’re seeking a rejuvenating retreat, adrenaline-packed adventures, or cultural exploration, Manali has something for everyone. Discover hidden waterfalls, trek through lush forests, and immerse yourself in the serene charm of this Himalayan paradise.",
+    itinerary: [
+      {
+        heading: "Arrive and Explore Manali’s Charm",
+        text: "Kick off your Manali adventure by arriving and checking into your cozy hotel. Begin your journey by exploring the enchanting Hadimba Temple, a stunning architectural gem surrounded by lush cedar forests. Next, visit the Tibetan Monastery, a serene spot that offers insight into local spirituality and craftsmanship. Unwind at the Vashisht Hot Springs, known for their natural healing properties, and then stroll along the vibrant Mall Road in the evening, where you can shop, savor local treats, and soak in the lively atmosphere.",
+      },
+      {
+        heading: "Dive into Adventure at Solang Valley and Beyond",
+        text: "Wake up to a day filled with adventure as you head to Solang Valley, a paradise for thrill-seekers. Enjoy activities like paragliding, skiing, or zorbing, or simply marvel at the breathtaking Himalayan views. In the afternoon, journey to Sissu, a tranquil village renowned for its apple orchards and serene vibe. On your way back, drive through the Atal Tunnel, an engineering marvel and the world’s longest highway tunnel at such an altitude. Return to Manali in the evening, carrying memories of an exhilarating day.",
+      },
+      {
+        heading: "Discover Hidden Gems and Bid Farewell",
+        text: "Start your day with a visit to Jogni Waterfall, a hidden treasure surrounded by lush greenery. Trek to the falls and soak in the natural beauty before exploring nearby attractions like the Vashisht Temple, or take time to relax at your hotel. As the sun sets, prepare for your departure, leaving Manali with a heart full of cherished memories. Board your overnight transport back to Delhi, arriving early the next morning.",
+      },
+    ],
   },
+
+  
   {
     place: "Shimla",
+    placeType:"Domestic",
     img: Shimla,
     text: "Take a stroll through the colonial charm of Shimla, surrounded by pine forests and cool mountain air.",
     content: "Content added soon",
   },
   {
     place: "Kasol",
+    placeType:"Domestic",
     img: Kasol,
-    text: "Unwind in Kasol, the backpackers’ haven, known for its serene vibes, lush valleys, and cultural mix.",
-    content: "Content added soon",
+    text: "Kasol, located in Himachal Pradesh's Parvati Valley, is a charming destination for travelers seeking serenity and adventure. Known for its scenic landscapes, tranquil treks, and vibrant culture, Kasol is the perfect getaway to reconnect with nature. Whether it's exploring quaint villages like Tosh and Chalal or relaxing by the Parvati River, this magical destination offers something for everyone.",
+    content:
+      "Nestled in the enchanting Parvati Valley, Kasol is a serene destination for those looking to escape the chaos of city life. Famous for its tranquil surroundings, charming cafes, and breathtaking landscapes, this quaint village is a paradise for both adventure seekers and peace lovers. Whether you wish to trek through lush green trails, unwind by the Parvati River, or explore vibrant local culture, Kasol offers something special for everyone.",
+    content2:
+      "With its picturesque beauty and laid-back vibe, Kasol has earned the title Mini-Israel of India. A blend of Israeli culture, traditional Himachali hospitality, and scenic Himalayan views makes this destination truly unique. From treks to nearby villages like Tosh and Chalal to a spiritual visit to Manikaran Sahib, Kasol ensures a memorable experience that stays with you long after you leave.",
+    itinerary: [
+      {
+        heading: "Arrival in Kasol, Chalal Trek, and Local Sightseeing",
+        text: "Arrive in Kasol early in the morning after an overnight journey from Delhi. Check into your accommodation and enjoy a refreshing breakfast. Begin your adventure with a short and scenic trek to Chalal Village, walking alongside the beautiful Parvati River. Immerse yourself in the serene surroundings and visit quaint cafes along the trail.In the afternoon, head to Manikaran Sahib, a famous Gurudwara known for its hot springs and spiritual ambiance. Spend some time exploring Kasol’s vibrant markets, where you can pick up local handicrafts and souvenirs. End your day with a hearty dinner and relax in the peaceful atmosphere of Kasol.",
+      },
+      {
+        heading: "Kasol to Kutla Village and Tosh Trek (Stay at Tosh)",
+        text: "Start your day with breakfast and check out from your accommodation. Drive to Barshaini, the base point for the trek to Tosh, and embark on the 3-4 hour trek through the stunning Parvati Valley. The trek offers incredible views of lush greenery and snow-capped peaks.Upon reaching Tosh, check into your accommodation and enjoy lunch at a local café. Spend your evening exploring Tosh Village, enjoying the spectacular sunset views, and soaking in the tranquility of the hills. Conclude your day with dinner and a peaceful stay in Tosh.",
+      },
+      {
+        heading: "Tosh to Kasol via Manikaran and Evening Departure",
+        text: "Begin your morning with a delightful breakfast, followed by check-out. Trek back to Barshaini and travel to Kasol. Stop at Manikaran Sahib for one last experience of its hot springs and peaceful vibe. Upon arrival in Kasol, enjoy some free time to relax or explore the village before boarding your evening bus back to Delhi. Depart with unforgettable memories of Kasol and its magical surroundings.",
+      }
+    ]
   },
   {
     place: "Tosh",
+    placeType:"Domestic",
     img: Tosh,
     text: "Escape to the peaceful village of Tosh, hidden in the Himalayas, with its serene vibe and breathtaking views.",
     content: "Content added soon",
   },
   {
     place: "Malana",
+    placeType:"Domestic",
     img: Malana,
     text: "A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
     content: "Content added soon",
   },
   {
     place: "Dalhousie",
+    placeType:"Domestic",
     img: Dalhousie,
     text: "Dalhousie is a hill station situated at a high elevation, spanning across five hills near the Dhauladhar mountain range.",
     content: "Content added soon",
   },
   {
     place: "Dhramshala",
+    placeType:"Domestic",
     img: Dhramshala,
     text: "Immerse yourself in the peaceful surroundings of Dharamshala, home to Tibetan culture and stunning mountain views.",
     content: "Content added soon",
   },
   {
     place: "Tirthan",
+    placeType:"Domestic",
     img: Tirthan,
-    text: "Discover the hidden gem of Tirthan Valley, where untouched nature and serene rivers offer a perfect retreat.",
-    content: "Content added soon",
+    text: "Nestled in the lap of Himachal Pradesh, Tirthan Valley is a hidden gem known for its untouched beauty and tranquil ambiance. Surrounded by lush green forests, glistening rivers, and snow-clad mountains, this destination offers the perfect retreat for nature lovers and adventurers.",
+    content:
+      "Tirthan Valley, located in the Kullu district, is named after the pristine Tirthan River that flows through it. Unlike the bustling tourist hubs, this valley is a quiet haven for those seeking peace and solitude amidst nature. Tirthan is the gateway to the Great Himalayan National Park, a UNESCO World Heritage Site, home to diverse flora and fauna.",
+    content2:
+      "The valley offers something for every traveler. Adventure seekers can enjoy trekking, trout fishing, and river crossing, while nature lovers can revel in its breathtaking landscapes. Tirthan's charm lies in its simplicity—quaint villages, friendly locals, and serene homestays make it a refreshing escape from modern life. Whether you want to hike to hidden waterfalls, camp by the river, or explore remote hamlets, Tirthan Valley promises an unforgettable experience.",
+    itinerary: [
+      {
+        heading: "Arrival in Jibhi and Exploration",
+        text: "Arrive in the morning at Jibhi, a picturesque village nestled amidst lush greenery. Check into a cozy hotel or homestay and enjoy a refreshing breakfast. Start your exploration with a visit to the scenic Jibhi Waterfall, surrounded by luxuriant greenery. Afterward, visit Chaini Koth, an ancient watchtower that reflects Himachali architecture and offers breathtaking views of the surrounding landscapes. Spend your evening relaxing by the riverside or taking a serene nature walk before enjoying dinner and a peaceful overnight stay in Jibhi.",
+      },
+      {
+        heading: "Jalori Pass and Serolsar Lake Trek",
+        text: "After an early breakfast, set out for an adventurous day. Drive to Jalori Pass, a stunning high-altitude mountain pass that offers panoramic views of the snow-clad Himalayas. From here, embark on a trek to Serolsar Lake, known for its pristine waters and tranquil surroundings. The trail takes you through dense oak and pine forests, creating an unforgettable trekking experience. Spend time by the serene lake, taking in its natural beauty, before heading back to Jibhi in the evening. Relish a delicious dinner and rest for the night.",
+      },
+      {
+        heading: "Chhoie Waterfall and Departure",
+        text: "Start your day with breakfast before heading for a short trek to the Chhoie Waterfall, a hidden gem amidst dense forests. Marvel at the cascading waters and enjoy the tranquil atmosphere. Return to your accommodation, pack up, and prepare for your departure. Leave Tirthan Valley in the late afternoon with a heart full of memories.",
+      },
+    ],
+
   },
   {
     place: "Spiti",
+    placeType:"Domestic",
     img: Spiti,
     text: "Discover the rugged beauty of Spiti Valley, where monasteries, mountains, and adventure await.",
     content: "Content added soon",
   },
   {
     place: "Alleppy",
+    placeType:"Domestic",
     img: Alleppy,
     text: "Cruise through Alleppey’s tranquil backwaters on a traditional houseboat and embrace the charm of Kerala.",
     content: "Content added soon",
   },
   {
     place: "Munnar",
+    placeType:"Domestic",
     img: Munnar,
     text: "A mountain retreat and former getaway for the British Raj aristocracy, it is encircled by lush hills adorned with tea plantations.",
     content: "Content added soon",
   },
   {
     place: "Thekkady",
+    placeType:"Domestic",
     img: Thekkady,
     text: "A Paradise in the Himalayas. Gulmarg hill station is blessed with lofty snow-clad mountains.",
     content: "Content added soon",
   },
   {
     place: "Goa",
+    placeType:"Domestic",
     img: Goa,
     text: "Goa – the land of sun, sand, and sea! A perfect mix of stunning beaches, thrilling water sports, vibrant nightlife, and rich Portuguese heritage, it’s a destination where every moment feels like a celebration.",
     content: "Known as the Pearl of the Orient, Goa is a paradise for travelers seeking a mix of relaxation and excitement. With sun-kissed beaches, bustling flea markets, and legendary nightlife, Goa guarantees a trip to remember. Whether you're chasing adrenaline through water sports or savoring its laid-back vibes with a chilled coconut in hand, this coastal wonder has it all.",
@@ -198,6 +274,7 @@ export const specificdata = [
 
   {
     place: "Rishikesh",
+    placeType:"Domestic",
     img: rishikesh,
     text: "Welcome to Rishikesh – where spirituality meets adventure! Nestled in the lap of the Himalayas and kissed by the holy Ganges, this is your go-to destination for soul-soothing vibes and thrill-packed escapades.",
     content:
@@ -222,6 +299,7 @@ export const specificdata = [
 
   {
     place: "Shilong",
+    placeType:"Domestic",
     img: northeast,
     text: "Imagine waking up to misty hills, exploring crystal-clear rivers, and strolling through Asia’s cleanest village. Shillong isn’t just a destination; it’s an experience that blends nature, culture, and adventure into one unforgettable journey.",
     content:
@@ -258,6 +336,7 @@ export const specificdata = [
 
   {
     place: "Darjiling",
+    placeType:"Domestic",
     img: Darjiling,
     text: "Savor the essence of Darjeeling, with its lush tea gardens, scenic views, and tranquil mountain air.",
     content: "Content added soon",
@@ -265,6 +344,7 @@ export const specificdata = [
 
   {
     place: "Sikkim",
+    placeType:"Domestic",
     img: northeast,
     text: "Explore the mystical beauty of Sikkim, where serene monasteries and snow-covered peaks captivate every traveler.",
     content: "Content added soon",
@@ -274,6 +354,7 @@ export const specificdata = [
 
   {
     place: "Dubai",
+    placeType:"Domestic",
     img: dubai,
     text: "Experience the glitz and glamour of Dubai, where modern skyscrapers meet golden deserts and Arabian nights",
     content: "Content added soon",
@@ -281,13 +362,45 @@ export const specificdata = [
 
   {
     place: "Thailand",
+    placeType:"International",
     img: thailand,
-    text: "Immerse yourself in the vibrant culture of Thailand, from stunning beaches to bustling markets and exotic flavors.",
-    content: "Content added soon",
+    text: "Thailand, often called the Land of Smiles, is a dream destination for travelers seeking pristine beaches, vibrant culture, and thrilling adventures. From the stunning islands of Krabi and Phuket to the cultural wonders of its bustling cities, Thailand is a perfect mix of relaxation and exploration.",
+    content:
+      "Thailand is an exotic destination that offers an unforgettable blend of natural beauty, rich traditions, and exciting experiences. The turquoise waters, limestone cliffs, and white sandy beaches of Krabi and Phuket are a haven for beach lovers and adventurers. Speedboat tours, snorkeling in crystal-clear waters, and relaxing on secluded islands make Thailand a paradise for nature enthusiasts.",
+    content2:
+      "Beyond its scenic beauty, Thailand captivates with its vibrant nightlife, rich history, and unique culture. Iconic landmarks like the Big Buddha in Phuket, serene temples, and bustling markets add to the country's allure. Whether you're exploring the Four Islands of Krabi, cruising through the Phi Phi Islands, or soaking in the lively streets of Phuket, Thailand promises memories that will last a lifetime.",
+    itinerary: [
+      {
+        heading: "Arrival in Phuket and Transfer to Krabi",
+        text: "Arrive at Phuket Airport, where you&apos;ll meet your representative. Enjoy a scenic private transfer to your hotel in Krabi. After checking in, spend the day at leisure exploring the surrounding areas.",
+      },
+      {
+        heading: "Full-Day Four Islands Tour by Speedboat",
+        text: "Start your day with a hearty breakfast before embarking on a speedboat tour to Krabi’s famous Four Islands. Visit Phra Nang Cave Beach, Chicken Island for snorkeling, and Poda Island’s pristine beaches. Witness the unique sandbar at Tup Island during low tide. Enjoy lunch during the tour and return to your hotel for an evening of relaxation.",
+      },
+      {
+        heading: "Transfer from Krabi to Phuket",
+        text: "After breakfast, check out from your hotel and take a private transfer to Phuket. Check into your hotel in Phuket and spend the day soaking in the vibrant atmosphere or relaxing at your leisure.",
+      },
+      {
+        heading: "Phi Phi Island Tour with Lunch",
+        text: "Fuel up with breakfast before heading out for a speedboat tour of the iconic Phi Phi Islands. Explore Maya Bay, made famous by the movie The Beach, and swim in the azure waters of Loh Samah Bay and Pileh Lagoon. Visit Monkey Beach and enjoy a buffet lunch at a seaside restaurant. Return to Phuket by evening for a restful night.",
+      },
+      {
+        heading: "Half-Day City Tour of Phuket",
+        text: "After breakfast, embark on a half-day tour of Phuket's cultural and scenic landmarks. Visit the Big Buddha, Wat Chalong Temple, and explore the colorful streets of Phuket Old Town. Spend your evening shopping or enjoying Phuket’s vibrant nightlife.",
+      },
+      {
+        heading: "Departure from Phuket",
+        text: "Enjoy your last breakfast in paradise before checking out. A private transfer will take you to Phuket Airport, where you’ll bid farewell to Thailand, carrying cherished memories of your adventure.",
+      },
+    ],
+
   },
 
   {
     place: "Maldives",
+    placeType:"International",
     img: maldivis,
     text: "Indulge in luxury and serenity in the Maldives, where pristine beaches and turquoise waters create paradise.",
     content: "Content added soon",
@@ -295,6 +408,7 @@ export const specificdata = [
 
   {
     place: "Singapore",
+    placeType:"International",
     img: singapore,
     text: "Discover the futuristic charm of Singapore, with its iconic skyline, vibrant streets, and lush gardens.",
     content: "Content added soon",

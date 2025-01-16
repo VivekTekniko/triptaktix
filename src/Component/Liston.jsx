@@ -13,13 +13,13 @@ const Liston = () => {
                     <div className='shadow-lg w-4/5 rounded-xl bg-orange-500 m-auto'>
                         <div className='m-auto'>
                             <img src={mot.src} className='m-auto p-6 w-56' />
-                            <p className='text-3xl p-16 pt-0 text-white text-center font-medium'>"Certified by the Ministry of Tourism, India."</p>
+                            <p className='text-3xl p-16 pt-0 text-white text-center font-medium'>&quot;Certified by the Ministry of Tourism, India.&quot;</p>
                         </div>
                     </div>
                     <div className='shadow-lg w-4/5 rounded-xl bg-orange-500 m-auto'>
                         <div>
                             <img src={adtoi.src} className='m-auto p-6 w-56' />
-                            <p className='text-3xl p-4 pt-0 text-white text-center font-medium'>"Member of the Association of Domestic Tour Operators of India (ADTOI)."</p>
+                            <p className='text-3xl p-4 pt-0 text-white text-center font-medium'>&quot;Member of the Association of Domestic Tour Operators of India (ADTOI).&quot;</p>
                         </div>
                     </div>
                 </div>

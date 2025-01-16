@@ -149,9 +149,9 @@ const Itinerary = ({data}) => {
   </h3>
   <div>
    {
-      data?.map((elem ,id)=>{
+      data?.map((elem ,id)=>{c
          return(
-            <div className="card p-4">
+            <div className="card p-4" key={id}>
       <details className={`transition duration-500 ${id%2==0?"bg-blue-200	hover:bg-blue-400 border-blue-400":"bg-orange-200	hover:bg-orange-400 border-orange-400"} cursor-pointer p-8 border-solid border-l-8  rounded-md`}>
       <summary className="flex items-center justify-space-between focus:outline-none">
                 <header className="flex justify-center items-center">

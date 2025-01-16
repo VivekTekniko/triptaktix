@@ -8,7 +8,7 @@ const Services = () => {
           Our Services - Exceeding Expectations with Every Journey
         </h1>
         <p className="md:max-w-screen-sm max-w-3xl mt-4 mx-auto text-2xl text-center text-web font-semibold font-sans">
-          From personalized travel plans to hassle-free bookings, we’re here to make every step of your journey seamless and unforgettable. Whether you’re planning a business event, a dream wedding, or your next great escape.</p>
+          From personalized travel plans to hassle-free bookings, we&apos;re here to make every step of your journey seamless and unforgettable. Whether you&apos;re planning a business event, a dream wedding, or your next great escape.</p>
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
           <div className="flex flex-col items-center p-6 space-y-3 text-center bg-white rounded-xl service-card transition transform-ease-in-out duration-500   dark:bg-gray-800">
             <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500">
@@ -160,7 +160,7 @@ const Services = () => {
               Destination Weddings (Domestic)
             </h1>
             <p className="text-gray-700 text-xl hover:text-white transition transform-ease-in-out duration-500 dark:text-gray-300">
-              Say "I do" at your dream destination with end-to-end planning and flawless execution.
+              Say&quot;I do&quot;at your dream destination with end-to-end planning and flawless execution.
             </p>
 
           </div>

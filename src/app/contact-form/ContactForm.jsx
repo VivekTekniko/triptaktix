@@ -128,9 +128,9 @@ const ContactForm = () => {
 
             <option value="" disabled>Select</option>
             {
-              data?.map((elem) => {
+              data?.map((elem , id) => {
                 return (
-                  <option value={elem.state}>{elem.state}</option>
+                  <option key={id} value={elem.state}>{elem.state}</option>
                 )
               })
             }
@@ -151,9 +151,9 @@ const ContactForm = () => {
           >
             <option value="" disabled>Select</option>
             {
-              dest?.destination?.map((elem) => {
+              dest?.destination?.map((elem , id) => {
                 return (
-                  <option value={elem.place}>{elem.place}</option>
+                  <option key={id} value={elem.place}>{elem.place}</option>
                 )
               })
             }
