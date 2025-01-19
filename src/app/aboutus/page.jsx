@@ -55,7 +55,7 @@ const page = () => {
                 </p>
                 <h3 className='my-6 text-4xl font-cursive text-orange'>Our Mission: Quality Within Reach</h3>
                 <p className='text-3xl font-medium text-justify'>
-                At TripTaktix, we believe that travel should inspire, rejuvenate, and create lasting memories. Guided by our mission, "Quality Is Always Within Reach," we are committed to delivering premium travel services at accessible prices. Whether you dream of serene mountain escapes or vibrant city adventures, our team is here to make it happen.
+                At TripTaktix, we believe that travel should inspire, rejuvenate, and create lasting memories. Guided by our mission, &quot;Quality Is Always Within Reach,&quot; we are committed to delivering premium travel services at accessible prices. Whether you dream of serene mountain escapes or vibrant city adventures, our team is here to make it happen.
                 4 Why settle for ordinary when you can embark on an extraordinary journey? With TripTaktix, your next adventure awaits – ready to be unforgettable.
                 </p>
 

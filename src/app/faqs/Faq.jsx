@@ -128,7 +128,7 @@ const Faq = () => {
                 >
                     <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
                         <p className="mb-2 text-gray-500 text-3xl dark:text-gray-400">
-                        Yes, all our packages are fully customizable to cater to your specific preferences, whether it's a solo trip, family vacation, corporate event, or a wedding.
+                        Yes, all our packages are fully customizable to cater to your specific preferences, whether it&apos;s a solo trip, family vacation, corporate event, or a wedding.
                         </p>
                         
                     </div>
