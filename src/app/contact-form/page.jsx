@@ -11,7 +11,7 @@ const Page = () => {
        <Head>
         {/* Title Tag */}
         <title>Contact Us</title>
-        <link rel="canonical" href="https://www.eventdekho.in/contact-form" />
+        <link rel="canonical" href="https://www.triptaktix.com/contact-form" />
 
         {/* Meta Description */}
         <meta
@@ -36,7 +36,7 @@ const Page = () => {
             <p className="ml-4">
               <span className="font-bold text-4xl">Fill Out The Form</span>
               <br />
-              Customers select their desired decoration type and provide event details through an online form.
+              Customers select their desired destination and provide our details through an online form.
             </p>
           </div>
           <div className="flex items-start my-8">
@@ -52,7 +52,7 @@ const Page = () => {
             <p className="ml-4">
               <span className="font-bold text-4xl">Booking</span>
               <br />
-              Our dedicated team creates and sets up the decorations according to the customer&apos;s chosen style and preferences.
+              Our dedicated team creates and sets up the destination according to the customer&apos;s chosen place and preferences.
             </p>
           </div>
           <div className="flex items-start my-8">
@@ -60,7 +60,7 @@ const Page = () => {
             <p className="ml-4">
               <span className="font-bold text-4xl">Customer Satisfaction</span>
               <br />
-              We ensure the customer&apos;s approval and happiness by providing a visually appealing and personalized decoration experience.
+              We ensure the customer&apos;s approval and happiness by providing a visually appealing and personalized travel experience.
             </p>
           </div>
         </div>

@@ -9,7 +9,7 @@ const page = () => {
 <Head>
         {/* Title Tag */}
         <title>Terms & Condition</title>
-        <link rel="canonical" href="https://www.eventdekho.in/terms&condition" />
+        <link rel="canonical" href="https://www.triptaktix.com/terms&condition" />
 
         {/* Meta Description */}
         <meta

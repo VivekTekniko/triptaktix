@@ -1,7 +1,9 @@
 "use client"
+import { useRouter } from 'next/navigation';
 import React, { useState } from 'react'
 
 const Contactus = () => {
+  const router = useRouter()
   const [formData, setFormData] = useState({
       name: '',
       mobile: '',
@@ -20,7 +22,7 @@ const Contactus = () => {
 const handleSubmit=async(e)=>{
   e.preventDefault();
   try {
-    const res = await fetch("http://localhost:8000/saveLead", {
+    const res = await fetch("https://triptaktix.com/api/user/saveLead", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",  
@@ -29,8 +31,10 @@ const handleSubmit=async(e)=>{
     });
 
     if (res.ok) {  
-      alert("Lead sent successfully");
-      setFormData();  
+      // alert("Lead sent successfully");
+
+      setFormData();
+      router.push("/thankyou")  
     } else {
       const errorData = await res.json(); 
       alert(`Error: ${errorData.message || 'Something went wrong'}`);
@@ -46,7 +50,7 @@ const handleSubmit=async(e)=>{
 
     <>
       <div className="w-full mx-auto md:mr-0 max-w-2xl md:max-w-xl ">
-        <div className="bg-white rounded-xl shadow p-7 sm:p-10">
+        <div className="bg-white rounded-xl shadow contact">
           <h3 className="mb-4 text-3xl text-web font-bold sm:text-center sm:mb-6 sm:text-3xl">
             Let&apos;s Plan your next trip!
           </h3>

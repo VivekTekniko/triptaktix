@@ -5,14 +5,14 @@ const Footer = () => {
   return (
     <footer className="bg-web">
       <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 footer-grid">
           <div>
             <div className="text-teal-600 w-80 h-28">
               <img src={logo.src} className='w-full h-ful bg-white rounded-lg' alt="Event-dekho-partyplanner" />
             </div>
 
             <p className="mt-4 max-w-xs text-white text-2xl font-medium">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi vitae maxime nemo ratione, neque, accusantium accusamus iste a aute        </p>
+            TripTactix is your one-stop solution for all travel needs. From custom tour packages and family vacations to honeymoon packages              </p>
 
             <ul className="mt-8 flex gap-6">
               <li>
@@ -74,48 +74,51 @@ const Footer = () => {
 
           <div className=" flex justify-between grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
             <div>
-              <p className="font-semibold text-white">Destination</p>
+              <p className="font-semibold text-white">Domestic</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="/contact-form" className="text-white text-2xl font-medium transition hover:opacity-75">Spiti </a>
+                  <a href="/Kashmir" className="text-white text-2xl font-medium transition hover:opacity-75">Kashmir </a>
                 </li>
 
                 <li>
-                  <a href="/contact-form" className="text-white text-2xl font-medium transition hover:opacity-75"> Kasol </a>
+                  <a href="/Himachal" className="text-white text-2xl font-medium transition hover:opacity-75"> Himachal Pardesh </a>
                 </li>
 
                 <li>
-                  <a href="/contact-form" className="text-white text-2xl font-medium transition hover:opacity-75"> Goa </a>
+                  <a href="/Uttarakhand" className="text-white text-2xl font-medium transition hover:opacity-75"> Uttarakhand </a>
                 </li>
 
                 <li>
-                  <a href="/contact-form" className="text-white text-2xl font-medium transition hover:opacity-75"> Shimla  </a>
+                  <a href="/North-East" className="text-white text-2xl font-medium transition hover:opacity-75"> North East  </a>
                 </li>
+                {/* <li>
+                  <a href="/contact-form" className="text-white text-2xl font-medium transition hover:opacity-75"> North East  </a>
+                </li> */}
               </ul>
             </div>
 
             <div>
-              <p className="font-semibold text-white">Packages</p>
+              <p className="font-semibold text-white">International</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="/" className="text-white text-2xl font-medium transition hover:opacity-75"> Kashmir </a>
+                  <a href="/Thailand" className="text-white text-2xl font-medium transition hover:opacity-75"> Thailand </a>
                 </li>
 
                 <li>
-                  <a href="/" className="text-white text-2xl font-medium transition hover:opacity-75"> Himanchal </a>
+                  <a href="/Dubai" className="text-white text-2xl font-medium transition hover:opacity-75"> Dubai </a>
                 </li>
 
                 <li>
-                  <a href="/" className="text-white text-2xl font-medium transition hover:opacity-75"> Uttarakhand </a>
+                  <a href="/Singapore" className="text-white text-2xl font-medium transition hover:opacity-75"> Singapore</a>
                 </li>
                 <li>
-                  <a href="/" className="text-white text-2xl font-medium transition hover:opacity-75">Goa </a>
+                  <a href="/Maldives" className="text-white text-2xl font-medium transition hover:opacity-75">Maldives </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/" className="text-white text-2xl font-medium transition hover:opacity-75"> Krala </a>
-                </li>
+                </li> */}
 
               </ul>
             </div>
@@ -129,14 +132,14 @@ const Footer = () => {
                 </li>
 
                 <li>
-                  <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> FAQs </a>
+                  <a href="/faqs" className="text-white text-2xl font-medium transition hover:opacity-75"> FAQs </a>
                 </li>
 
                 <li>
-                  <a href="" className="text-white text-2xl font-medium transition hover:opacity-75"> About Us </a>
+                  <a href="aboutus" className="text-white text-2xl font-medium transition hover:opacity-75"> About Us </a>
                 </li>
                 <li>
-                  <a href="" className="text-white text-2xl font-medium transition hover:opacity-75"> Our Packages </a>
+                  <a href="/package/popularPackage" className="text-white text-2xl font-medium transition hover:opacity-75"> Our Packages </a>
                 </li>
               </ul>
             </div>

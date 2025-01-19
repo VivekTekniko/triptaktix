@@ -10,6 +10,7 @@ import Itinerary from '../Itinerary';
 import ContactForm from '@/app/contact-form/ContactForm';
 import PopularSeason from '@/Component/PopularSeason';
 import HeroMatrix from '../HeroMatrix';
+import Faq from '../../faqs/Faq';
 
 const page = ({ params }) => {
     const filteredData = specificdata.filter(state => {
@@ -48,14 +49,14 @@ const page = ({ params }) => {
                         <p className='text-3xl p-8 text-justify text-gray-500  font-normal'>{filteredData[0].content}</p>
 
                         <p className='text-3xl p-8 text-justify text-gray-500 mt-4 font-normal'>{filteredData[0].content2}</p>
-                <Itinerary data={filteredData[0].itinerary}/>
+                {filteredData[0].itinerary && <Itinerary data={filteredData[0].itinerary}/>}
                     </div>
                    <div className='hidden md:block'> <ContactForm /></div>
                 </div>
            {filteredData[0].placeType=="Domestic" ? <Feature1/> : <InternationalFeature/>}
             <HeroMatrix/>
 			<div className='block sm:hidden mt-12'> <ContactForm /></div>
-            <Feature2/>
+            <Faq/>
             <PopularSeason/>
             </div>
             <Footer />

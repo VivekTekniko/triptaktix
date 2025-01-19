@@ -9,7 +9,7 @@ const page = () => {
       <Head>
         {/* Title Tag */}
         <title>Privacy & Policies</title>
-        <link rel="canonical" href="https://www.eventdekho.in/privacy-policy" />
+        <link rel="canonical" href="https://www.triptaktix.com/privacy-policy" />
 
         {/* Meta Description */}
         <meta
@@ -76,7 +76,7 @@ const page = () => {
 <h2>Contact Us</h2>
 <p className='text-2xl'>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
-<li>By visiting this page on our website: <a href="https://www.eventdekho.in/contact-form" rel="external nofollow noopener" target="_blank">https://www.eventdekho.in/contact-form</a></li>
+<li>By visiting this page on our website: <a href="https://www.triptaktix.com/contact-form" rel="external nofollow noopener" target="_blank">https://www.triptaktix.com/contact-form</a></li>
 </ul>
     </div>
     <Footer/>

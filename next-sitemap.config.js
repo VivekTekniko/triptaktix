@@ -1,4 +1,4 @@
 module.exports = {
-    siteUrl: 'https://eventdekho.in',
+    siteUrl: 'https://triptaktix.com',
     generateRobotsTxt: true,
   };

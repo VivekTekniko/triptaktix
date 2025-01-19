@@ -30,8 +30,7 @@ const page = () => {
                                     About Us
                                 </h2>
                                 <p className="max-w-xl mb-4 text-2xl text-gray-200 md:text-2xl">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae reprehenderit molestiae voluptate atque doloribus id .
-                                </p>
+                                At TripTaktix, we transform travel dreams into extraordinary journeys. With expertise, passion, and a commitment to quality, we make every trip unforgettable.                                </p>
                             </div>
                             <Contactus />
                         </div>
@@ -39,10 +38,26 @@ const page = () => {
                 </div>
             </div>
             <div className='max-w-screen-lg mx-auto my-6'>
-                <p className='text-3xl font-medium text-justify'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, neque sit. Aut optio sapiente dolor provident cumque! Quod animi quae amet, delectus temporibus neque. Pariatur placeat velit aut necessitatibus labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla earum doloribus atque saepe culpa expedita, vero blanditiis, voluptas consectetur excepturi illo at possimus provident minus officia molestias aliquid dignissimos optio!locations Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, at? Aperiam iure, ab deleniti rem mollitia vitae corporis nihil, delectus ut molestiae a natus, asperiores sapiente placeat laborum id porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum magnam nisi earum, vero placeat, quaerat a, dignissimos praesentium cupiditate deserunt corporis voluptate inventore dolores obcaecati nostrum debitis quod veritatis suscipit.</p>
-                <p className='text-3xl font-medium text-justify'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, neque sit. Aut optio sapiente dolor provident cumque! Quod animi quae amet, delectus temporibus neque. Pariatur placeat velit aut necessitatibus labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla earum doloribus atque saepe culpa expedita, vero blanditiis, voluptas consectetur excepturi illo at possimus provident minus officia molestias aliquid dignissimos optio!locations Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, at? Aperiam iure, ab deleniti rem mollitia vitae corporis nihil, delectus ut molestiae a natus, asperiores sapiente placeat laborum id porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum magnam nisi earum, vero placeat, quaerat a, dignissimos praesentium cupiditate deserunt corporis voluptate inventore dolores obcaecati nostrum debitis quod veritatis suscipit.</p>
-                <p className='text-3xl font-medium text-justify'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, neque sit. Aut optio sapiente dolor provident cumque! Quod animi quae amet, delectus temporibus neque. Pariatur placeat velit aut necessitatibus labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla earum doloribus atque saepe culpa expedita, vero blanditiis, voluptas consectetur excepturi illo at possimus provident minus officia molestias aliquid dignissimos optio!locations Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, at? Aperiam iure, ab deleniti rem mollitia vitae corporis nihil, delectus ut molestiae a natus, asperiores sapiente placeat laborum id porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum magnam nisi earum, vero placeat, quaerat a, dignissimos praesentium cupiditate deserunt corporis voluptate inventore dolores obcaecati nostrum debitis quod veritatis suscipit.</p>
-                <p className='text-3xl font-medium text-justify'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, neque sit. Aut optio sapiente dolor provident cumque! Quod animi quae amet, delectus temporibus neque. Pariatur placeat velit aut necessitatibus labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla earum doloribus atque saepe culpa expedita, vero blanditiis, voluptas consectetur excepturi illo at possimus provident minus officia molestias aliquid dignissimos optio!locations Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, at? Aperiam iure, ab deleniti rem mollitia vitae corporis nihil, delectus ut molestiae a natus, asperiores sapiente placeat laborum id porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum magnam nisi earum, vero placeat, quaerat a, dignissimos praesentium cupiditate deserunt corporis voluptate inventore dolores obcaecati nostrum debitis quod veritatis suscipit.</p>
+                <h3 className='my-6 text-4xl font-cursive text-orange'>Our Story</h3>
+                <p className='text-3xl font-medium text-justify'>Every great adventure starts with a vision, and TripTaktix was born out of a deep passion for redefining travel. Founded by Abhay Tyagi and Hemant Rathore, two travel enthusiasts with academic excellence in Travel & Tourism Management and Business Analytics, TripTaktix blends 
+                    expertise with innovation. Armed with certifications from the Ministry of Tourism and globally recognized IATA credentials, we bring a fresh perspective to travel planning. From humble beginnings to creating a brand synonymous with trust 
+                    and quality, our journey is a testament to our dedication to delivering seamless travel experiences.</p>
+                    <h3 className='my-6 text-4xl font-cursive text-orange'>What sets us apart</h3>
+                <p className='text-3xl font-medium text-justify'>
+                TripTaktix stands out because we do more than plan trips – we craft experiences. With over 6 years of combined industry expertise and collaborations with leading travel brands like Amigos Alliance and EaseMyTrip, we’ve honed our skills in business development, flight support, and operations. 
+                Our unique ability to combine local roots with a global outlook ensures every trip is designed with care, precision, and a touch of creativity. Whether it’s a luxury escape, a corporate retreat, or a family getaway, our personalized solutions cater to your every need.
+                </p>
+                <h3 className='my-6 text-4xl font-cursive text-orange'>Certified Expertise You Can Trust</h3>
+                <p className='text-3xl font-medium text-justify'>
+
+                Quality and reliability are at the core of everything we do. TripTaktix is proudly certified by the Ministry of Tourism, and our IATA certification ensures global standards in travel services. Based in Wave City, Sector 7, our strong local presence enables us to handle travel demands worldwide. Additionally, 
+                our partnerships with over seven Ministry-certified travel companies allow us to deliver unparalleled value, competitive deals, and unmatched experiences. With TripTaktix, you’re always in safe hands.
+                </p>
+                <h3 className='my-6 text-4xl font-cursive text-orange'>Our Mission: Quality Within Reach</h3>
+                <p className='text-3xl font-medium text-justify'>
+                At TripTaktix, we believe that travel should inspire, rejuvenate, and create lasting memories. Guided by our mission, "Quality Is Always Within Reach," we are committed to delivering premium travel services at accessible prices. Whether you dream of serene mountain escapes or vibrant city adventures, our team is here to make it happen.
+                4 Why settle for ordinary when you can embark on an extraordinary journey? With TripTaktix, your next adventure awaits – ready to be unforgettable.
+                </p>
 
             </div>
             <Footer />

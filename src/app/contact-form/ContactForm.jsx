@@ -3,7 +3,10 @@ import React, { useEffect, useState } from 'react';
 // import EventImage from "../../Common/EventImage";
 import emailjs from 'emailjs-com';
 import { data } from "../../Common/Content";
+import { useRouter } from 'next/navigation';
+
 const ContactForm = () => {
+  const router = useRouter()
   const [formData, setFormData] = useState({
     name: '',
     mobile: '',
@@ -16,11 +19,9 @@ const ContactForm = () => {
   const [dest , setDest] = useState()
 
   useEffect(()=>{
-    let filterArr = data?.find((elem)=>elem.state==formData.state)
+    let filterArr = data?.find((elem)=>elem?.state==formData?.state)
    setDest(filterArr)
-  },[formData.state])
-
-  console.log(dest)
+  },[formData?.state])
 
   const handleChange = (e) => {
     setFormData({
@@ -44,7 +45,7 @@ const ContactForm = () => {
 
   const sendDetails = async () => {
     try {
-      const res = await fetch("http://localhost:8000/saveLead", {
+      const res = await fetch("https://triptaktix.com/api/user/saveLead", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -53,8 +54,9 @@ const ContactForm = () => {
       });
 
       if (res.ok) {
-        alert("Lead sent successfully");
+        // alert("Lead sent successfully");
         setFormData();
+        router.push("/thankyou")
       } else {
         const errorData = await res.json();
         alert(`Error: ${errorData.message || 'Something went wrong'}`);
@@ -80,6 +82,7 @@ const ContactForm = () => {
             onChange={handleChange}
             className="w-full px-3 md:py-4 py-10 md:text-2xl text-4xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-500"
             placeholder="Enter Your Name"
+            required
           />
         </div>
         <div className="mb-4">
@@ -91,6 +94,7 @@ const ContactForm = () => {
             onChange={handleChange}
             className="w-full px-3 md:py-4 py-10 md:text-2xl text-4xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-500"
             placeholder="Enter Your Email"
+            required
           />
         </div>
         <div className="mb-4">
@@ -124,6 +128,7 @@ const ContactForm = () => {
             value={formData?.state}
             onChange={handleChange}
             className="w-full px-3 md:py-4 py-10 md:text-2xl text-4xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-500"
+            required
           >
 
             <option value="" disabled>Select</option>
@@ -148,6 +153,7 @@ const ContactForm = () => {
             value={formData?.destination}
             onChange={handleChange}
             className="w-full px-3 md:py-4 py-10 md:text-2xl text-4xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-500"
+            required
           >
             <option value="" disabled>Select</option>
             {
@@ -170,6 +176,7 @@ const ContactForm = () => {
             value={formData?.package}
             onChange={handleChange}
             className="w-full px-3 md:py-4 py-10 md:text-2xl text-4xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-500"
+            required
           >
             <option value="" disabled>Select</option>
             <option value="4N/5D">4N/5D</option>

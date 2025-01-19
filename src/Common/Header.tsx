@@ -37,7 +37,7 @@ const Header = () => {
             </button>
             {/* <!-- Dropdown menu --> */}
             {showPopup && <div onMouseEnter={() => setShowPopup(true)} onMouseLeave={() => setShowPopup(false)}
-              className="z-50 absolute top-4 md:top-10 left-1/3 md:left-0   font-normal bg-white divide-y divide-gray-100 rounded-lg shadow   dark:bg-gray-700 dark:divide-gray-600">
+              className="z-50 absolute top-4 header-tour md:top-10 left-1/3 md:left-0   font-normal bg-white divide-y divide-gray-100 rounded-lg shadow   dark:bg-gray-700 dark:divide-gray-600">
               <ul className="py-2 nav-tab w-60 text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                 <li>
                   <Link href="/package/popular" className="block text-[18px] nav-tab-dropdown px-10 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Domestic</Link>
@@ -48,9 +48,9 @@ const Header = () => {
               </ul>
             </div>}
           </li>
-          <Link className="text-[18px]  font-medium text-web mr-3  relative after:bg-blue-900 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-700 cursor-pointer" href="/aboutus">About Us </Link>
-          <Link className="text-[18px]  font-medium text-web mr-3  relative after:bg-blue-900 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-700 cursor-pointer" href="/contact-us">Contact Us </Link>
-          <Link className="text-[18px]  font-medium text-web  relative after:bg-blue-900 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-700 cursor-pointer" href="/blogs">Our Blogs </Link>
+          <Link className="text-[18px]  font-medium text-web mr-3  relative custom-class cursor-pointer" href="/aboutus">About Us </Link>
+          <Link className="text-[18px]  font-medium text-web mr-3  relative custom-class cursor-pointer" href="/contact-us">Contact Us </Link>
+          <Link className="text-[18px]  font-medium text-web  relative cursor-pointer custom-class" href="/blogs">Our Blogs </Link>
           <div className="text-2xl  text-web md:mx-8 ">
 
             <div className="my-2">

@@ -16,13 +16,13 @@ const MostPopular = () => {
 
   return (
     <section  style={backgroundStyle} className='md:py-10 z-10'>
-      <div className="max-w-screen-xl md:mx-auto p-4 opacity-100 z-50">
+      <div className="max-w-screen-lg md:mx-auto p-4 opacity-100 z-50">
         <h1 className="text-center font-cursive text-orange font-semibold text-5xl pb-8" >
         Explore Our Most Popular Destinations
         </h1>
         <h2 className="md:max-w-screen-sm max-w-3xl  mx-auto text-2xl text-center text-web font-semibold font-sans">
         From breathtaking mountains to pristine beaches, these are the places our travelers love the most!        </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 p-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 p-4">
           {data.filter((item)=>item.destinationType=="domestic").map((elem, id) => {
             return (
               <div className="flex justify-center items-center" key={id}>

@@ -38,38 +38,38 @@ import dubai from "../Assets/travel/dubai.jpg";
 import rishikesh from "../Assets/travel/rishikesh.jpg"
 
 export const data = [
-    {
-        id: 1,
-        state: "Jammu",
-        text: "Gateway to Serenity: Where Nature Meets Majesty.",
-        img: patni,
-        bgImg:kashmir,
-        destinationType:"domestic",
-        showbanner:false,
-        destination: [
-            {
-                place: "Katra",
-                img: katra,
-                text: "",
-                content: "",
-                package: "2N & 4D",
-                season:false,
-                popular:true,
-                packagePrice: "4999/-",
-            },
-            {
-                place: "Patnitop",
-                img: patni,
-                text: "",
-                content: "",
-                package: "2N & 4D",
-                season:false,
-                popular:true,
-                packagePrice: "4999/-",
-            },
+    // {
+    //     id: 1,
+    //     state: "Jammu",
+    //     text: "Gateway to Serenity: Where Nature Meets Majesty.",
+    //     img: patni,
+    //     bgImg:kashmir,
+    //     destinationType:"domestic",
+    //     showbanner:false,
+    //     destination: [
+    //         {
+    //             place: "Katra",
+    //             img: katra,
+    //             text: "",
+    //             content: "",
+    //             package: "2N & 4D",
+    //             season:false,
+    //             popular:true,
+    //             packagePrice: "4999/-",
+    //         },
+    //         {
+    //             place: "Patnitop",
+    //             img: patni,
+    //             text: "",
+    //             content: "",
+    //             package: "2N & 4D",
+    //             season:false,
+    //             popular:true,
+    //             packagePrice: "4999/-",
+    //         },
            
-        ]
-    },
+    //     ]
+    // },
     {
         id: 1,
         state: "Kashmir",
@@ -263,47 +263,47 @@ export const data = [
             },
         ]
     },
-    {
-        id: 1,
-        state: "Kerala",
-        text: "God’s Own Country: Where Backwaters and Bliss Collide",
-        bgImg:Alleppy,
-        img: Alleppy,
-        destinationType:"domestic",
-        showbanner:false,
-        destination: [
-            {
-                place: "Alleppy",
-                img: Alleppy,
-                text: "Cruise through Alleppey’s tranquil backwaters on a traditional houseboat and embrace the charm of Kerala.",
-                content: "",
-                package: "2N & 4D",
-                season:false,
-                popular:true,
-                packagePrice: "4999/-",
-            },
-            {
-                place: "Munnar",
-                img: Munnar,
-                text: "A mountain retreat and former getaway for the British Raj aristocracy, it is encircled by lush hills adorned with tea plantations.",
-                content: "",
-                package: "2N & 4D",
-                season:true,
-                popular:false,
-                packagePrice: "4999/-",
-            },
-            // {
-            //     place: "Thekkady",
-            //     img: Thekkady,
-            //     text: "",
-            //     content: "",
-            //     package: "2N & 4D",
-            //     season:true,
-            //     popular:false,
-            //     packagePrice: "4999/-",
-            // },
-        ]
-    },
+    // {
+    //     id: 1,
+    //     state: "Kerala",
+    //     text: "God’s Own Country: Where Backwaters and Bliss Collide",
+    //     bgImg:Alleppy,
+    //     img: Alleppy,
+    //     destinationType:"domestic",
+    //     showbanner:false,
+    //     destination: [
+    //         {
+    //             place: "Alleppy",
+    //             img: Alleppy,
+    //             text: "Cruise through Alleppey’s tranquil backwaters on a traditional houseboat and embrace the charm of Kerala.",
+    //             content: "",
+    //             package: "2N & 4D",
+    //             season:false,
+    //             popular:true,
+    //             packagePrice: "4999/-",
+    //         },
+    //         {
+    //             place: "Munnar",
+    //             img: Munnar,
+    //             text: "A mountain retreat and former getaway for the British Raj aristocracy, it is encircled by lush hills adorned with tea plantations.",
+    //             content: "",
+    //             package: "2N & 4D",
+    //             season:true,
+    //             popular:false,
+    //             packagePrice: "4999/-",
+    //         },
+    //         // {
+    //         //     place: "Thekkady",
+    //         //     img: Thekkady,
+    //         //     text: "",
+    //         //     content: "",
+    //         //     package: "2N & 4D",
+    //         //     season:true,
+    //         //     popular:false,
+    //         //     packagePrice: "4999/-",
+    //         // },
+    //     ]
+    // },
     {
         id: 1,
         state: "Goa",
