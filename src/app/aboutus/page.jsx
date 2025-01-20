@@ -37,7 +37,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div className='max-w-screen-lg mx-auto my-6'>
+            <div className='max-w-screen-lg md:mx-auto mx-6 my-6'>
                 <h3 className='my-6 text-4xl font-cursive text-orange'>Our Story</h3>
                 <p className='text-3xl font-medium text-justify'>Every great adventure starts with a vision, and TripTaktix was born out of a deep passion for redefining travel. Founded by Abhay Tyagi and Hemant Rathore, two travel enthusiasts with academic excellence in Travel & Tourism Management and Business Analytics, TripTaktix blends 
                     expertise with innovation. Armed with certifications from the Ministry of Tourism and globally recognized IATA credentials, we bring a fresh perspective to travel planning. From humble beginnings to creating a brand synonymous with trust 

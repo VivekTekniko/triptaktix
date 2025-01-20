@@ -176,8 +176,8 @@ const Itinerary = ({data}) => {
                       strokeLinejoin="round"
                     />
                   </svg>
-                  <h1 className="leading-5 flex self-center font-semibold text-black text-3xl">
-                   Day{id+1} - {elem?.heading}
+                  <h1 className=" flex self-center font-semibold text-black text-3xl">
+                   Day {id+1} - {elem?.heading}
                   </h1>
                 </header>
               </summary>

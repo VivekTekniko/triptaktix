@@ -23,7 +23,7 @@ const Faq = () => {
                         aria-expanded="true"
                         aria-controls="accordion-color-body-1"
                     >
-                        <span>What services does TripTaktix offer?</span>
+                        <span className='text-left'>What services does TripTaktix offer?</span>
                         <svg
                             data-accordion-icon
                             className="w-3 h-3 rotate-180 shrink-0"
@@ -62,7 +62,7 @@ const Faq = () => {
                         aria-expanded="false"
                         aria-controls="accordion-color-body-2"
                     >
-                        <span>How can I book a service with TripTaktix?</span>
+                        <span className='text-left'>How can I book a service with TripTaktix?</span>
                         <svg
                             data-accordion-icon
                             className="w-3 h-3 rotate-180 shrink-0"
@@ -102,7 +102,7 @@ const Faq = () => {
                         aria-expanded="false"
                         aria-controls="accordion-color-body-2"
                     >
-                        <span>Are your travel packages customizable?</span>
+                        <span className='text-left'>Are your travel packages customizable?</span>
                         <svg
                             data-accordion-icon
                             className="w-3 h-3 rotate-180 shrink-0"
@@ -141,7 +141,7 @@ const Faq = () => {
                         aria-expanded="false"
                         aria-controls="accordion-color-body-2"
                     >
-                        <span>What documents are required for international travel?</span>
+                        <span className='text-left'>What documents are required for international travel?</span>
                         <svg
                             data-accordion-icon
                             className="w-3 h-3 rotate-180 shrink-0"
@@ -181,7 +181,7 @@ const Faq = () => {
                         aria-expanded="false"
                         aria-controls="accordion-color-body-2"
                     >
-                        <span>What are the best times to travel to popular destinations?</span>
+                        <span className='text-left'>What are the best times to travel to popular destinations?</span>
                         <svg
                             data-accordion-icon
                             className="w-3 h-3 rotate-180 shrink-0"
@@ -223,7 +223,7 @@ const Faq = () => {
                         aria-expanded="false"
                         aria-controls="accordion-color-body-2"
                     >
-                        <span>Can TripTaktix help with hotel reservations?</span>
+                        <span className='text-left'>Can TripTaktix help with hotel reservations?</span>
                         <svg
                             data-accordion-icon
                             className="w-3 h-3 rotate-180 shrink-0"
@@ -244,7 +244,7 @@ const Faq = () => {
                 </h2>
                 <div
                     id="accordion-color-body-2"
-                    className={currentAcc == "4" ? 'block' : 'hidden'}
+                    className={currentAcc == "6" ? 'block' : 'hidden'}
                     aria-labelledby="accordion-color-heading-2"
                 >
                     <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
@@ -262,7 +262,7 @@ const Faq = () => {
                         aria-expanded="false"
                         aria-controls="accordion-color-body-2"
                     >
-                        <span>What is MICE, and how does TripTaktix assist in organizing such events?</span>
+                        <span className='text-left'>What is MICE, and how does TripTaktix assist in organizing such events?</span>
                         <svg
                             data-accordion-icon
                             className="w-3 h-3 rotate-180 shrink-0"
@@ -283,7 +283,7 @@ const Faq = () => {
                 </h2>
                 <div
                     id="accordion-color-body-2"
-                    className={currentAcc == "4" ? 'block' : 'hidden'}
+                    className={currentAcc == "7" ? 'block' : 'hidden'}
                     aria-labelledby="accordion-color-heading-2"
                 >
                     <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
@@ -301,7 +301,7 @@ const Faq = () => {
                         aria-expanded="false"
                         aria-controls="accordion-color-body-2"
                     >
-                        <span>What certifications does TripTaktix hold?</span>
+                        <span className='text-left'>What certifications does TripTaktix hold?</span>
                         <svg
                             data-accordion-icon
                             className="w-3 h-3 rotate-180 shrink-0"
@@ -322,7 +322,7 @@ const Faq = () => {
                 </h2>
                 <div
                     id="accordion-color-body-2"
-                    className={currentAcc == "4" ? 'block' : 'hidden'}
+                    className={currentAcc == "8" ? 'block' : 'hidden'}
                     aria-labelledby="accordion-color-heading-2"
                 >
                     <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
@@ -341,7 +341,7 @@ const Faq = () => {
                         aria-expanded="false"
                         aria-controls="accordion-color-body-2"
                     >
-                        <span>Does TripTaktix help with destination wedding planning?</span>
+                        <span className='text-left'>Does TripTaktix help with destination wedding planning?</span>
                         <svg
                             data-accordion-icon
                             className="w-3 h-3 rotate-180 shrink-0"
@@ -362,7 +362,7 @@ const Faq = () => {
                 </h2>
                 <div
                     id="accordion-color-body-2"
-                    className={currentAcc == "4" ? 'block' : 'hidden'}
+                    className={currentAcc == "9" ? 'block' : 'hidden'}
                     aria-labelledby="accordion-color-heading-2"
                 >
                     <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
@@ -380,7 +380,7 @@ const Faq = () => {
                         aria-expanded="false"
                         aria-controls="accordion-color-body-2"
                     >
-                        <span>Why should I choose TripTaktix for my travel needs?</span>
+                        <span className='text-left'>Why should I choose TripTaktix for my travel needs?</span>
                         <svg
                             data-accordion-icon
                             className="w-3 h-3 rotate-180 shrink-0"
@@ -401,7 +401,7 @@ const Faq = () => {
                 </h2>
                 <div
                     id="accordion-color-body-2"
-                    className={currentAcc == "4" ? 'block' : 'hidden'}
+                    className={currentAcc == "10" ? 'block' : 'hidden'}
                     aria-labelledby="accordion-color-heading-2"
                 >
                     <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">

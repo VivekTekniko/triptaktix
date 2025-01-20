@@ -10,7 +10,7 @@ const InternationalFeature = () => {
 			<section className="max-w-screen-xl mx-auto p-12 shadow-md rounded">
 				<div className="  ">
 					<div>
-						<h2 className="text-5xl font-cursive ml-4 font-bold text-center text-orange">Things To Remember</h2>
+						<h2 className="text-5xl font-cursive ml-4 my-4 font-bold text-center text-orange">Things To Remember</h2>
 					</div>
 					<div className="">
 

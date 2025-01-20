@@ -44,7 +44,7 @@ const PopularSeason = () => {
                 </h2>
                 <p className="md:max-w-screen-sm max-w-3xl  mx-auto text-2xl text-center text-web font-semibold font-sans">
                 These destinations shine brightest at the perfect time. Discover your ideal seasonal escape and let nature amaze you.</p>
-                <Link href="/package/popularSeason" className="text-xl font-semibold flex justify-end">View All</Link>
+                <Link href="/package/popularSeason" className="text-xl pr-4 font-semibold flex justify-end">View All</Link>
                 {/* <div className="grid md:grid-cols-3 grid-cols-2 gap-2 place-items-center p-4"> */}
                 <Carousel
                     swipeable={false}

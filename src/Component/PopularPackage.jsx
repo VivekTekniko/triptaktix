@@ -39,7 +39,7 @@ const TreatmentList = () => {
       </h2>
       <p className="md:max-w-screen-sm max-w-3xl  mx-auto text-2xl text-center text-web font-semibold font-sans">
       These popular packages offer the perfect blend of adventure and relaxation. Choose your dream getaway and create unforgettable memories.      </p>
-      <Link href="/package/popularPackage" className="text-xl text-web font-semibold flex justify-end">View All</Link>
+      <Link href="/package/popularPackage" className="text-xl text-web pr-4 font-semibold flex justify-end">View All</Link>
 
       {/* <div className="grid md:grid-cols-3 grid-cols-2 gap-2 place-items-center p-4"> */}
       <Carousel

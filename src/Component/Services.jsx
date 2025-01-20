@@ -3,8 +3,8 @@ import React from 'react'
 const Services = () => {
   return (
     <section className="bg-orange-50 dark:bg-gray-900">
-      <div className="max-w-screen-lg px-6 py-10 mx-auto">
-        <h1 className="text-4xl font-semibold font-cursive text-orange text-center text-gray-800 capitalize lg:text-5xl dark:text-white">
+      <div className="max-w-screen-lg px-10 py-10 mx-auto">
+        <h1 className="text-5xl font-semibold font-cursive text-orange text-center text-gray-800 capitalize lg:text-5xl dark:text-white">
           Our Services - Exceeding Expectations with Every Journey
         </h1>
         <p className="md:max-w-screen-sm max-w-3xl mt-4 mx-auto text-2xl text-center text-web font-semibold font-sans">
@@ -30,7 +30,7 @@ const Services = () => {
             <h1 className="text-3xl font-semibold hover:text-white transition transform-ease-in-out duration-500  text-gray-700 capitalize dark:text-white">
               MICE (Meetings, Incentives, Conferences, Events)
             </h1>
-            <p className="text-gray-700 text-xl hover:text-white transition transform-ease-in-out duration-500 dark:text-gray-300">
+            <p className="text-gray-700 text-2xl md:text-xl hover:text-white transition transform-ease-in-out duration-500 dark:text-gray-300">
               Elevate your business travel with tailored solutions for events, meetings, and corporate gatherings.
 
             </p>
@@ -56,7 +56,7 @@ const Services = () => {
             <h1 className="text-3xl font-semibold hover:text-white transition transform-ease-in-out duration-500  text-gray-700 capitalize dark:text-white">
               Customized Packages – Domestic & International
             </h1>
-            <p className="text-gray-700 text-xl hover:text-white transition transform-ease-in-out duration-500 dark:text-gray-300">
+            <p className="text-gray-700 text-2xl md:text-xl hover:text-white transition transform-ease-in-out duration-500 dark:text-gray-300">
               Design your perfect getaway with packages crafted to suit your preferences and style.
             </p>
 
@@ -81,7 +81,7 @@ const Services = () => {
             <h1 className="text-3xl font-semibold hover:text-white transition transform-ease-in-out duration-500  text-gray-700 capitalize dark:text-white">
               Flight Booking (Domestic & International)
             </h1>
-            <p className="text-gray-700 text-xl hover:text-white transition transform-ease-in-out duration-500 dark:text-gray-300">
+            <p className="text-gray-700 text-2xl md:text-xl hover:text-white transition transform-ease-in-out duration-500 dark:text-gray-300">
               Enjoy stress-free flight bookings with the best fares for your travel needs.
             </p>
 
@@ -107,7 +107,7 @@ const Services = () => {
             <h1 className="text-3xl font-semibold hover:text-white transition transform-ease-in-out duration-500  text-gray-700 capitalize dark:text-white">
               Dubai Visa Assistance
             </h1>
-            <p className="text-gray-700 text-xl hover:text-white transition transform-ease-in-out duration-500  dark:text-gray-300">
+            <p className="text-gray-700 text-2xl md:text-xl hover:text-white transition transform-ease-in-out duration-500  dark:text-gray-300">
               Simplify your Dubai travel with expert guidance through the visa process.
             </p>
 
@@ -133,7 +133,7 @@ const Services = () => {
             <h1 className="text-3xl font-semibold hover:text-white transition transform-ease-in-out duration-500  text-gray-700 capitalize dark:text-white">
               Hotel Reservations
             </h1>
-            <p className="text-gray-700 text-xl hover:text-white transition transform-ease-in-out duration-500 dark:text-gray-300">
+            <p className="text-gray-700 text-2xl md:text-xl hover:text-white transition transform-ease-in-out duration-500 dark:text-gray-300">
               Find the ideal stay, from luxury escapes to budget-friendly options, anywhere in the world.
             </p>
 
@@ -159,7 +159,7 @@ const Services = () => {
             <h1 className="text-3xl font-semibold hover:text-white transition transform-ease-in-out duration-500  text-gray-700 capitalize dark:text-white">
               Destination Weddings (Domestic)
             </h1>
-            <p className="text-gray-700 text-xl hover:text-white transition transform-ease-in-out duration-500 dark:text-gray-300">
+            <p className="text-gray-700 text-2xl md:text-xl hover:text-white transition transform-ease-in-out duration-500 dark:text-gray-300">
               Say&quot;I do&quot;at your dream destination with end-to-end planning and flawless execution.
             </p>
 

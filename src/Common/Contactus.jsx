@@ -63,7 +63,7 @@ const handleSubmit=async(e)=>{
                 Enter Your Name
               </label>
               <input
-                placeholder="John Doe"
+                placeholder="Enter your name"
                 required
                 onChange={(e)=>handleChange(e)}
                 type="text"
@@ -79,7 +79,7 @@ const handleSubmit=async(e)=>{
                 Enter Your Mobile Number
               </label>
               <input
-                placeholder="911111111"
+                placeholder="Enter your mobile no."
                 required
                 onChange={(e)=>handleChange(e)}
                 type="text"
@@ -95,7 +95,7 @@ const handleSubmit=async(e)=>{
                 Enter Your E-mail
               </label>
               <input
-                placeholder="john.doe@example.org"
+                placeholder="Enter your email"
                 required
                 onChange={(e)=>handleChange(e)}
                 type="text"

@@ -1,20 +1,22 @@
 import React from 'react';
 import logo from "../Assets/travel-logo.png";
 import Image from "next/image";
+import Liston from '@/Component/Liston';
 const Footer = () => {
   return (
     <footer className="bg-web">
       <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 footer-grid">
-          <div>
-            <div className="text-teal-600 w-80 h-28">
-              <img src={logo.src} className='w-full h-ful bg-white rounded-lg' alt="Event-dekho-partyplanner" />
+        <div className="grid gap-8 footer-grid">
+          <div className='flex justify-between w-full'>
+            <div className="text-teal-600 ">
+              <img src={logo.src} className='w-1/3 bg-white rounded-lg' alt="Event-dekho-partyplanner" />
+            <p className="mt-4  text-white text-2xl  font-medium">
+            TripTactix is your one-stop solution for all travel needs. From custom tour packages and family vacations to honeymoon packages            
+              </p>
             </div>
 
-            <p className="mt-4 max-w-xs text-white text-2xl font-medium">
-            TripTactix is your one-stop solution for all travel needs. From custom tour packages and family vacations to honeymoon packages              </p>
 
-            <ul className="mt-8 flex gap-6">
+            {/* <ul className="mt-8 flex gap-6">
               <li>
                 <a
                   href="#"
@@ -69,10 +71,10 @@ const Footer = () => {
                   </svg>
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
-          <div className=" flex justify-between grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
+          <div className='flex justify-between'>
             <div>
               <p className="font-semibold text-white">Domestic</p>
 
@@ -123,7 +125,10 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div>
+          
+          </div>
+          <div className='flex justify-between'>
+          <div >
               <p className="font-semibold text-white">Helpful Links</p>
 
               <ul className="mt-6 space-y-4 text-sm">
@@ -144,7 +149,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div>
+            <div >
               <p className="font-semibold text-white">Legal</p>
 
               <ul className="mt-6 space-y-4 text-sm">
@@ -160,8 +165,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
+        <div className='flex justify-between items-center'>
+        <Liston/>
         <p className=" text-white text-2xl font-medium">&copy; 2022. Company Name. All rights reserved.</p>
+        </div>
       </div>
     </footer>
   )

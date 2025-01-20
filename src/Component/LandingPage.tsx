@@ -65,7 +65,7 @@ const LandingPage = () => {
         <MostPopular/>
         <Services/>
         <International/>
-        <Liston/>
+        {/* <Liston/> */}
         <PopularPackage />
         <HowWorks/>
         <PopularSeason/>

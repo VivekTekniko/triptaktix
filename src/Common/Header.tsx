@@ -27,6 +27,7 @@ const Header = () => {
           </svg>
         </button>
         <div className="md:flex hidden basis-3/5 gap-4 justify-between md:justify-end items-center md:order-2 ">
+        <Link className="text-[18px]  font-medium text-web mr-3  relative custom-class cursor-pointer" href="/">Home </Link>
           <li className="relative list-none">
             <button onMouseEnter={() => setShowPopup(true)} onMouseLeave={() => setShowPopup(false)}
               className="flex items-center nav-tab justify-between text-[18px] w-full py-2 header-nav text-web rounded border-b border-gray-100 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
@@ -63,7 +64,9 @@ const Header = () => {
       </div>
       <div className={`${mobMode ? "block" : "hidden"}  w-full `} id="navbar-solid-bg">
         <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
-          <li className="border border-b-blue-800 py-2" onClick={() => setShowPopup(!showPopup)}>
+        <li className="border border-b-blue-800 py-2">
+            <a href="/" className="block py-2  px-3 md:p-0 text-web text-5xl font-semibold hover:bg-gray-400 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
+          </li>          <li className="border border-b-blue-800 py-2" onClick={() => setShowPopup(!showPopup)}>
             <a href="#" className="block py-2  px-3 md:p-0 text-web text-5xl font-semibold rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Tour Packages</a>
           </li>
           {showPopup && <div

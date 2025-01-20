@@ -368,7 +368,7 @@ animation: sweep 0.5s ease-in-out;
 
 @media screen and (max-width:767px) {
   .footer-grid{
-    grid-template-columns: 1fr  !important;
+    grid-template-columns: 1fr !important;
   }
 }
 

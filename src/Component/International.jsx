@@ -34,7 +34,7 @@ const International = () => {
       </h2>
       <p className="md:max-w-screen-sm max-w-3xl  mx-auto text-2xl text-center text-web font-semibold font-sans">
       Explore the world with our international trip packages—unforgettable experiences, iconic destinations, and adventures that go beyond borders.      </p>
-      <Link href="/international/Package" className="text-xl text-web font-semibold flex justify-end">View All</Link>
+      <Link href="/international/Package" className="text-xl pr-4 text-web font-semibold flex justify-end">View All</Link>
 
       {/* <div className="grid md:grid-cols-3 grid-cols-2 gap-2 place-items-center p-4"> */}
       <Carousel
