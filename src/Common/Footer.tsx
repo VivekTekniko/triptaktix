@@ -166,7 +166,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='flex justify-between items-center'>
-        <Liston/>
+        {/* <Liston/> */}
         <p className=" text-white text-2xl font-medium">&copy; 2022. Company Name. All rights reserved.</p>
         </div>
       </div>
